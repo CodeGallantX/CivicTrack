@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/link';
+import Image from 'next/image';
 const App = () => {
   const [formData, setFormData] = useState({
     firstname: '',
