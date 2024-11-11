@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/link';
 const App = () => {
   const [formData, setFormData] = useState({
     firstname: '',
@@ -125,7 +126,7 @@ const App = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center gap-4">
                     <a href="#" className="w-full flex flex-row items-center justify-center gap-2 hover:bg-gray-800 px-2 py-3 rounded-full bg-transparent border border-solid border-blue-500">
-                        <img src="https://ik.imagekit.io/mshcgnjju/EkoStudy/Google-icon.png" alt="Google Icon" width={20} height={20} />
+                        <Image src="https://ik.imagekit.io/mshcgnjju/EkoStudy/Google-icon.png" alt="Google Icon" width={20} height={20} />
                         <span>Continue with Google</span>
                     </a>
                 </div>

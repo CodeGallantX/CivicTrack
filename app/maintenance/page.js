@@ -1,5 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import Image from 'next/link';
 
 const App = () => {
   const targetDate = new Date("2024-09-30T23:59:59").getTime();
@@ -29,11 +31,11 @@ const App = () => {
 
   return (
     <div className='relative h-full w-full m-0 p-0 selection:bg-[#4C5F4E]'>
-      <img className='w-screen h-screen object-cover' src="/maintenance/upcoming-bg.jpg" alt="Maintenance bg" />
+      <Image className='w-screen h-screen object-cover' src="/maintenance/upcoming-bg.jpg" alt="Maintenance bg" />
       <div className="h-full w-full top-0 absolute bg-black opacity-40"></div>
       <div className='absolute top-1/4 left-[2%] lg:left-[8%] text-white px-10 xl:px-20 flex flex-col text-center gap-8'>
         {/* <img src="/logo.png" alt="EkoStudy logo" /> */}
-        <a href="/" className="text-3xl"><span className='font-bold'>Eko</span>Study</a>
+        <Link href="/" className="text-3xl"><span className='font-bold'>Eko</span>Study</Link>
         <h1 className='text-4xl lg:text-6xl xl:text-8xl font-semibold'>This site is currently down for maintenance</h1>
         <p className='text-2xl'>We apologize for any inconveniences caused.</p>
         <div className='grid grid-cols-2 gap-4 lg:flex lg:flex-row lg:gap-4 items-center justify-center'>
