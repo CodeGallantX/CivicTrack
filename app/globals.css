@@ -14,8 +14,11 @@
   }
 }
 
+
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans, 'DM Sans'), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, #logo {
+  font-family: var(--font-space-grotesk, 'Space Grotesk'), serif;
 }
