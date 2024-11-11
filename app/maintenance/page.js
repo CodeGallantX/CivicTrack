@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/link';
+import Image from 'next/image';
 
 const App = () => {
   const targetDate = new Date("2024-09-30T23:59:59").getTime();

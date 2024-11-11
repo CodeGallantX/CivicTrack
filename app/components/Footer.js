@@ -1,6 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { useState } from 'react';
+import { FaGithub } from 'react-icons/fa'; 
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -35,12 +36,12 @@ const Footer = () => {
               placeholder='Email address'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex-grow bg-gray-800 text-[#919090] outline-none pl-4 pr-20 py-3 rounded-lg placeholder:text-[#636363] focus:ring-1 focus:ring-[#ffca0d] transition duration-300"
+              className="flex-grow bg-gray-800 group text-[#919090] outline-none pl-4 pr-20 py-3 rounded-lg placeholder:text-[#636363] focus:ring-1 focus:ring-[#ffca0d] transition duration-300"
               required
             />
             <button
               type="submit"
-              className='absolute bg-white text-black px-3 py-2 rounded-lg right-0 -translate-x-3 transition-colors duration-200 hover:bg-black hover:text-white outline-none'>
+              className='absolute bg-white text-gray-900 px-3 py-2 rounded-lg right-0 -translate-x-3 transition-colors duration-200 hover:bg-[#ffca0d] group-focus:bg[#ffca0d] outline-none'>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
               </svg>
@@ -51,10 +52,7 @@ const Footer = () => {
 
       <div className='flex flex-col gap-2 mt-8'>
         <div className='flex items-center gap-3'>
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" className="fill-white" viewBox="0 0 16 16">
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-          </svg>
+        <FaGithub className="text-white"/>
         </div>
         <a href='mailto:contact@civictrack.com' className='flex items-center gap-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" className="fill-white" viewBox="0 0 16 16">
