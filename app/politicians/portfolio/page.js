@@ -7,7 +7,7 @@ const App = () => {
   const page = {
     title: 'Portfolio',
     breadcrumb: [
-      { name: 'Politicians', path: '/politicians' }
+      { name: 'Politicians', path: '/politicians' },
       { name: 'Portfolio', path: '/portfolio' }
     ]
   };

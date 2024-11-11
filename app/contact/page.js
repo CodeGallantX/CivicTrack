@@ -43,11 +43,11 @@ const App = () => {
           <div className='flex flex-col text-[18px] lg:text-xl font-semibold xl:text-[28px] gap-3'>
             <a href="https://github.com/codegallantx" target='_blank' className="flex flex-row items-center group">
               <FaGithub className="text-2xl" />
-              <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out">CodeGallantX</span>
+              <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out">Super Guild</span>
             </a>
             <a href="https://www.linkedin.com/john-samuel-cgx" target='_blank' className="flex flex-row items-center group">
               <FaLinkedin className="text-2xl group-hover:text-[#ffca0d]" />
-              <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out">John Samuel</span>
+              <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out"></span>
             </a>
           </div>
         </div>
