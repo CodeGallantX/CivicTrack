@@ -6,7 +6,7 @@ const Banner = ({ page }) => {
     <div className="pt-10 md:pt-20">
     <div className="relative bg-gradient-to-tr from-gray-900 to-purple-800 w-full h-[250px] flex flex-col justify-center items-start px-10 xl:px-24">
       <div className="text-left z-10 mt-10">
-        <h2 className="text-5xl md:text-7xl font-bold mb-4 text-white">{page.title}</h2>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">{page.title}</h2>
 
         <nav aria-label="breadcrumb" className="text-sm text-gray-100">
           <ol className="list-reset flex space-x-2">
