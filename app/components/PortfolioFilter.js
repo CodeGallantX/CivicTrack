@@ -31,7 +31,7 @@ const PortfolioFilter = ({ onFilterChange }) => {
   };
 
   return (
-    <div className="w-1/4 p-4 bg-gray-800 rounded-lg shadow-md space-y-6">
+    <div className="w-1/4 hidden lg:block p-4 bg-gray-800 rounded-lg shadow-md space-y-6">
       <h2 className="text-xl font-semibold text-gray-200">Filter Portfolio</h2>
 
       {/* Category Filter */}
