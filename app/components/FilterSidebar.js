@@ -35,7 +35,7 @@ const FilterSidebar = ({ politicians }) => {
   }, [searchQuery, roleFilter, politicians]);
 
   return (
-    <div className="w-1/4 bg-gray-800 text-white p-5 rounded-md shadow-lg">
+    <div className="w-1/4 hidden lg:block bg-gray-800 text-white p-5 rounded-md shadow-lg">
       <h3 className="text-2xl font-semibold mb-4">Filter Politicians</h3>
 
       {/* Name filter */}
