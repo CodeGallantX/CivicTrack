@@ -93,7 +93,7 @@ export default function Portfolio() {
       <Banner page={page} />
       <div className="px-10 xl:px-24 py-10 flex">
         <PortfolioFilter onFilterChange={handleFilterChange} />
-        <div className="w-3/4 p-0 lg:px-4 ml-8">
+        <div className="w-full lg:w-3/4 p-0 lg:px-4 ml-8">
           {politician && <Profile politician={politician} />}
           <FeaturedPortfolios portfolios={featuredPortfolios} />
           <PortfolioList portfolios={filteredPortfolios} />
