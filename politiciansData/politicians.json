@@ -1,0 +1,220 @@
+[
+  {
+    "id": 1,
+    "name": "Paul Kagame",
+    "position": "President",
+    "party": "Rwandan Patriotic Front",
+    "country": "Rwanda",
+    "state": "Kigali",
+    "age": 66,
+    "birthplace": "Gitarama, Rwanda",
+    "socialMedia": {
+      "twitter": "https://twitter.com/PaulKagame",
+      "facebook": "https://facebook.com/PaulKagame"
+    },
+    "bio": "President of Rwanda since 2000, known for Rwanda's economic transformation and recovery post-genocide",
+    "photo": "/assets/politicians/paul-kagame.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Abiy Ahmed Ali",
+    "position": "Prime Minister",
+    "party": "Prosperity Party",
+    "country": "Ethiopia",
+    "state": "Addis Ababa",
+    "age": 47,
+    "birthplace": "Beshasha, Ethiopia",
+    "socialMedia": {
+      "twitter": "https://twitter.com/AbiyAhmedAli",
+      "facebook": "https://facebook.com/AbiyAhmedAli"
+    },
+    "bio": "Prime Minister of Ethiopia, awarded the 2019 Nobel Peace Prize for ending the Eritrean border conflict",
+    "photo": "/assets/politicians/abiy-ahmed-ali.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ngozi Okonjo-Iweala",
+    "position": "Director-General",
+    "party": "Independent",
+    "country": "Nigeria",
+    "state": "Delta",
+    "age": 69,
+    "birthplace": "Ogwashi-Ukwu, Nigeria",
+    "socialMedia": {
+      "twitter": "https://twitter.comNOIweala",
+      "linkedin": "https://linkedin.com/in/ngoziokonjo-iweala"
+    },
+    "bio": " Director-General of the WTO and former Nigerian finance minister, known for her economic expertise",
+    "photo": "/assets/politicians/Ngozi-Okonjo-Iweala.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cyril Ramaphosa",
+    "position": "President",
+    "party": "African National Congress (ANC)",
+    "country": "South Africa",
+    "age": 71,
+    "socialMedia": {
+      "twitter": "https://twitter.com/CyrilRamaphosa",
+      "facebook": "https://facebook.com/CyrilRamaphosa"
+    },
+    "bio": "President of South Africa since 2018, former anti-apartheid activist, and businessman focused on economic growth.",
+    "photo": "/assets/politicians/cyril-ramaphosa.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Amina Mohammed",
+    "position": "Deputy President",
+    "party": "Jubilee Party",
+    "country": "Kenya",
+    "age": 61,
+    "socialMedia": {
+      "twitter": "https://twitter.com/AminaMohammed",
+      "linkedin": "https://linkedin.com/in/amina-mohammed"
+    },
+    "bio": "Deputy President of Kenya, former Cabinet Secretary for Foreign Affairs, and international advocate for climate and trade.",
+    "photo": "/assets/politicians/amina_mohammed.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Muhammadu Buhari",
+    "position": "President",
+    "party": "All Progressives Congress (APC)",
+    "country": "Nigeria",
+    "age": 81,
+    "socialMedia": {
+      "twitter": "https://twitter.com/MBuhari",
+      "facebook": "https://facebook.com/MuhammaduBuhari"
+    },
+    "bio": "President of Nigeria since 2015, focused on anti-corruption, security, and economic reforms",
+    "photo": "/assets/politicians/muhammadu_buhari.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Goodluck Jonathan",
+    "position": "Former President",
+    "party": "People's Democratic Party (PDP)",
+    "country": "Nigeria",
+    "age": 66,
+    "socialMedia": {
+      "twitter": "https://twitter.com/GEJonathan",
+      "facebook": "https://facebook.com/GEJonathan"
+    },
+    "bio": "Former President of Nigeria, known for democratic reforms and infrastructure development.",
+    "photo": "/assets/politicians/goodluck_jonathan.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Uhuru Kenyatta",
+    "position": "President",
+    "party": "Jubilee Party",
+    "country": "Kenya",
+    "age": 62,
+    "socialMedia": {
+      "twitter": "https://twitter.com/UKenyatta",
+      "facebook": "https://facebook.com/uhuru.kenyatta"
+    },
+    "bio": "Former President of Kenya, focused on infrastructure, economic growth, and regional security.",
+    "photo": "/assets/politicians/uhuru_kenyatta.jpg"
+  },
+
+  {
+    "id": 9,
+    "name": "Bola Tinubu",
+    "position": "President-elect",
+    "party": "All Progressives Congress (APC)",
+    "country": "Nigeria",
+    "age": 72,
+    "socialMedia": {
+      "twitter": "https://twitter.com/officialABAT",
+      "facebook": "https://facebook.com/BolaTinubu"
+    },
+    "bio": "President-elect of Nigeria, former Lagos State governor, and political kingmaker.",
+    "photo": "/assets/politicians/bola_tinubu.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Raila Odinga",
+    "position": "Opposition Leader",
+    "party": "Orange Democratic Movement (ODM)",
+    "country": "Kenya",
+    "age": 79,
+    "socialMedia": {
+      "twitter": "https://twitter.com/RailaOdinga",
+      "facebook": "https://facebook.com/RailaOdinga"
+    },
+    "bio": "Opposition leader and former Prime Minister of Kenya, advocate for democracy and social reforms.",
+    "photo": "/assets/politicians/raila_odinga.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Aisha Buhari",
+    "position": "First Lady of Nigeria",
+    "party": "All Progressives Congress (APC)",
+    "country": "Nigeria",
+    "age": 53,
+    "socialMedia": {
+      "twitter": "https://twitter.com/aishambuhari",
+      "facebook": "https://facebook.com/officialaishabuhari"
+    },
+    "bio": " First Lady of Nigeria, active in women's empowerment, youth development, and healthcare.",
+    "photo": "/assets/politicians/aisha_buhari.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Rochas Okorocha",
+    "position": "Senator",
+    "party": "All Progressives Congress (APC)",
+    "country": "Nigeria",
+    "age": 52,
+    "socialMedia": {
+      "twitter": "https://twitter.com/realrochas",
+      "facebook": "https://facebook.com/rochamogbo"
+    },
+    "bio": "Nigerian senator, former governor of Imo State, and education advocate.",
+    "photo": "/assets/politicians/rochas_okorocha.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Chimamanda Ngozi Adichie",
+    "position": "Author & Political Advocate",
+    "party": "Independent",
+    "country": "Nigeria",
+    "age": 46,
+    "socialMedia": {
+      "twitter": "https://twitter.com/ChimamandaReal",
+      "facebook": "https://facebook.com/ChimamandaAdichie"
+    },
+    "bio": "Renowned Nigerian author and advocate for gender equality and social justice.",
+    "photo": "/assets/politicians/chimamanda_adichie.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Senator Florence Ita-Giwa",
+    "position": "Senator",
+    "party": "People's Democratic Party (PDP)",
+    "country": "Nigeria",
+    "age": 66,
+    "socialMedia": {
+      "twitter": "https://twitter.com/ItaGiwa",
+      "facebook": "https://facebook.com/FlorenceItaGiwa"
+    },
+    "bio": "Former senator from Cross River State, focused on women’s welfare and healthcare development.",
+    "photo": "/assets/politicians/florence_ita-giwa.jpg"
+  },
+
+  {
+    "id": 15,
+    "name": "Martha Karua",
+    "position": "Deputy President (elect)",
+    "party": "NARC-Kenya",
+    "country": "Kenya",
+    "age": 66,
+    "socialMedia": {
+      "twitter": "https://twitter.com/MarthaKarua",
+      "facebook": "https://facebook.com/MarthaKarua"
+    },
+    "bio": "Former Minister of Justice and deputy president candidate in Kenya, known for anti-corruption and human rights advocacy.",
+    "photo": "/assets/politicians/martha_karua.jpg"
+  }
+]

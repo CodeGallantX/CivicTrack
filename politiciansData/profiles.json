@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Paul Kagame",
+      "nickname": "The Transformer",
+      "position": "President",
+      "party": "Rwandan Patriotic Front",
+      "country": "Rwanda",
+      "state": "Kigali",
+      "age": 66,
+      "birthplace": "Gitarama, Rwanda",
+      "bio": "Paul Kagame is the President of Rwanda, widely recognized for his leadership in transforming Rwanda post-genocide. He is known for his efforts in rebuilding the country's economy and ensuring social stability.",
+      "photo": "/assets/politicians/paul_kagame.jpg",
+      "socialMedia": {
+        "twitter": "https://twitter.com/PaulKagame",
+        "facebook": "https://facebook.com/PaulKagame"
+      },
+      "achievements": [
+        "Led the post-genocide recovery in Rwanda.",
+        "Initiated the Vision 2020 program to transform Rwanda's economy."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Abiy Ahmed Ali",
+      "nickname": "The Peace Maker",
+      "position": "Prime Minister",
+      "party": "Prosperity Party",
+      "country": "Ethiopia",
+      "state": "Addis Ababa",
+      "age": 47,
+      "birthplace": "Beshasha, Ethiopia",
+      "bio": "Abiy Ahmed Ali, Prime Minister of Ethiopia, was awarded the 2019 Nobel Peace Prize for his role in ending the Eritrean-Ethiopian conflict. His reforms aim to modernize the Ethiopian economy and society.",
+      "photo": "/assets/politicians/abiy_ahmed.jpg",
+      "socialMedia": {
+        "twitter": "https://twitter.com/AbiyAhmedAli",
+        "facebook": "https://facebook.com/AbiyAhmedAli"
+      },
+      "achievements": [
+        "Awarded the 2019 Nobel Peace Prize.",
+        "Initiated economic and political reforms in Ethiopia."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ngozi Okonjo-Iweala",
+      "nickname": "The Economic Genius",
+      "position": "Director-General",
+      "party": "Independent",
+      "country": "Nigeria",
+      "state": "Delta",
+      "age": 69,
+      "birthplace": "Ogwashi-Ukwu, Nigeria",
+      "bio": "Ngozi Okonjo-Iweala is the Director-General of the World Trade Organization and a former Nigerian finance minister. Known for her economic expertise, she is a strong advocate for global economic reform.",
+      "photo": "/assets/politicians/ngozi_okonjo-iweala.jpg",
+      "socialMedia": {
+        "twitter": "https://twitter.com/NOIweala",
+        "linkedin": "https://linkedin.com/in/ngoziokonjo-iweala"
+      },
+      "achievements": [
+        "First female and first African Director-General of the WTO.",
+        "Led Nigeria’s economic recovery efforts as Finance Minister."
+      ]
+    }
+  ]
+  

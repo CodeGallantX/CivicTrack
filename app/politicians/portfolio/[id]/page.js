@@ -1,46 +1,89 @@
-// /app/politicians/portfolio/[id].js
-
-import fs from 'fs';
-import path from 'path';
-import React from 'react';
+"use client";
+import { useState, useEffect } from 'react';
+import { useParams } from 'next/navigation';
+import PortfolioFilter from '../../../components/PortfolioFilter';
+import Profile from '../../../components/Profile';
+import FeaturedPortfolios from '../../../components/FeaturedPortfolios';
+import PortfolioList from '../../../components/PortfolioList';
 import Header from '../../../components/Header';
 import Footer from '../../../components/Footer';
 import Banner from '../../../components/Banner';
 
 async function fetchPoliticians() {
-  const filePath = path.join(process.cwd(), 'data', 'politicians.json');
-  const jsonData = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(jsonData || '[]');
+  try {
+    const res = await fetch('/data/politicians.json');
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return await res.json();
+  } catch (error) {
+    console.error("Error fetching politicians data:", error);
+    return [];
+  }
 }
 
 async function fetchPortfolio() {
-  const filePath = path.join(process.cwd(), 'data', 'portfolio.json');
-  const jsonData = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(jsonData || '[]');
+  try {
+    const res = await fetch('/data/portfolio.json');
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return await res.json();
+  } catch (error) {
+    console.error("Error fetching portfolio data:", error);
+    return [];
+  }
 }
 
-const Portfolio = async ({ params }) => {
-  const politicianId = parseInt(params.id, 10);  // Capture ID from the URL (e.g. /politicians/portfolio/1)
-  const politicians = await fetchPoliticians();
-  const portfolioData = await fetchPortfolio();
+export default function Portfolio() {
+  const { id } = useParams();
+  const politicianId = parseInt(id, 10);
 
-  // Find the politician by ID
-  const politician = politicians.find((p) => p.id === politicianId);
+  const [politicians, setPoliticians] = useState([]);
+  const [portfolioData, setPortfolioData] = useState([]);
+  const [filteredPortfolios, setFilteredPortfolios] = useState([]);
+  const [featuredPortfolios, setFeaturedPortfolios] = useState([]);
+  const [politician, setPolitician] = useState(null);
 
-  if (!politician) {
-    return <p>Politician not found.</p>;
-  }
+  useEffect(() => {
+    async function fetchData() {
+      const politiciansData = await fetchPoliticians();
+      const portfolioData = await fetchPortfolio();
 
-  // Get the portfolio data for this politician
-  const politicianPortfolios = portfolioData.filter(
-    (portfolio) => portfolio.responsiblePoliticianId === politician.id
-  );
+      setPoliticians(politiciansData);
+      setPortfolioData(portfolioData);
+
+      const currentPolitician = politiciansData.find((p) => p.id === politicianId);
+      if (currentPolitician) {
+        setPolitician(currentPolitician);
+
+        const politicianPortfolios = portfolioData.filter(
+          (portfolio) => portfolio.responsiblePoliticianId === currentPolitician.id
+        );
+        setFilteredPortfolios(politicianPortfolios);
+        setFeaturedPortfolios(politicianPortfolios.slice(0, 3));
+      }
+    }
+
+    fetchData();
+  }, [politicianId]);
+
+  const handleFilterChange = (filters) => {
+    const { category, year, tags } = filters;
+    const filtered = portfolioData.filter((portfolio) => {
+      const matchesCategory = category ? portfolio.category === category : true;
+      const matchesYear = year ? portfolio.year === year : true;
+      const matchesTags = tags.length ? tags.every(tag => portfolio.tags.includes(tag)) : true;
+      return matchesCategory && matchesYear && matchesTags;
+    });
+    setFilteredPortfolios(filtered);
+  };
 
   const page = {
-    title: `${politician.name}`,
+    title: politician ? politician.name : 'Loading...',
     breadcrumb: [
       { name: 'Politicians', path: '/politicians' },
-      { name: `${politician.name}`, path: `/politicians/portfolio/${politicianId}` },
+      { name: politician ? politician.name : 'Politician', path: `/politicians/portfolio/${politicianId}` },
     ],
   };
 
@@ -48,36 +91,15 @@ const Portfolio = async ({ params }) => {
     <div className="bg-gray-900 text-gray-100">
       <Header />
       <Banner page={page} />
-      <div className="container mx-auto px-4 py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {politicianPortfolios.map((project) => (
-            <div key={project.id} className="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
-              <div className="p-4 text-black shadow-lg shadow-cyan-500">
-                <h3 className="text-xl font-semibold">{project.title}</h3>
-                <p className="text-sm">{project.description}</p>
-                <p className="mt-2"><strong>Status:</strong> {project.status}</p>
-                <p className="mt-2"><strong>Budget:</strong> {project.budget}</p>
-                <div className="mt-2">
-                  {project.relatedLinks.map((link, idx) => (
-                    <a
-                      key={idx}
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[#ffca0d] hover:underline"
-                    >
-                      {link.title}
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
-          ))}
+      <div className="px-10 xl:px-24 py-10 flex">
+        <PortfolioFilter onFilterChange={handleFilterChange} />
+        <div className="w-3/4 px-4 ml-8">
+          {politician && <Profile politician={politician} />}
+          <FeaturedPortfolios portfolios={featuredPortfolios} />
+          <PortfolioList portfolios={filteredPortfolios} />
         </div>
       </div>
       <Footer />
     </div>
   );
-};
-
-export default Portfolio;
+}

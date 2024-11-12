@@ -7,6 +7,7 @@
       "startDate": "2021-01-01",
       "status": "Ongoing",
       "budget": "5 billion USD",
+      "tag": "Social",
       "relatedLinks": [
         {
           "title": "Official Government Report",
@@ -26,6 +27,7 @@
       "startDate": "2019-05-15",
       "status": "Completed",
       "budget": "2 billion USD",
+      "tag": "Education",
       "relatedLinks": [
         {
           "title": "Policy Document",

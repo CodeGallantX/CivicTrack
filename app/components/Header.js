@@ -94,7 +94,18 @@ const Header = () => {
             <div className="mt-4">
               <h2 className="text-xl text-white">Support Us</h2>
               <div className="flex gap-4 mt-2">
-                {/* Social icons can go here */}
+                <Link
+          href="https://github.com/CodeGallantX/CivicTrack/stargazers" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="mt-2 inline-flex items-center"
+        >
+          <img 
+            src="https://img.shields.io/github/stars/CodeGallantX/CivicTrack?style=social" 
+            alt="GitHub stars"
+            className="ml-2"
+          />
+        </Link>
               </div>
             </div>
           </ul>
