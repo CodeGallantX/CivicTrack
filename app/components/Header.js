@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="backdrop-blur-xl fixed w-full mb-40 flex items-center justify-between py-10 px-10 xl:px-24 z-40">
+      <header className="backdrop-blur-xl fixed w-full mb-40 flex items-center justify-between py-6 px-10 xl:px-24 z-40">
         <Link id="logo" href="/" className="text-white text-3xl font-bold font-main">
           Civic<span className="text-[#ffca0d]">Track</span>
         </Link>
@@ -67,11 +67,11 @@ const Header = () => {
           ></div>
 
           <ul
-            className={`lg:hidden block fixed inset-y-0 right-0 z-40 w-64 bg-gray-800 transition-all duration-500 ease-in-out ${
+            className={`lg:hidden block fixed inset-y-0 right-0 z-40 w-64 px-6 bg-gray-800 transition-all duration-500 ease-in-out ${
               isSidebarVisible ? 'translate-x-0' : 'translate-x-full'
             }`}
           >
-            <li onClick={hideSideBar} className="cursor-pointer my-4 flex items-center justify-between w-full">
+            <li onClick={hideSideBar} className="cursor-pointer mt-4 mb-8 flex items-center justify-between w-full">
               <Link id="logo" href="/" className="text-white text-3xl font-bold font-main">
                 Civic<span className="text-[#ffca0d]">Track</span>
               </Link>
@@ -92,7 +92,7 @@ const Header = () => {
             ))}
 
             <div className="mt-4">
-              <h2 className="text-xl text-white">FOLLOW US</h2>
+              <h2 className="text-xl text-white">Support Us</h2>
               <div className="flex gap-4 mt-2">
                 {/* Social icons can go here */}
               </div>

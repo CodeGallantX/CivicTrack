@@ -80,7 +80,7 @@ const App = () => {
               value={formData.review}
               onChange={handleInputChange}
               placeholder="Your Review"
-              className="px-4 py-2 border text-gray-200 border-gray-300 rounded-2xl bg-gray-900 outline-none focus:ring-1 focus:ring-[#ffca0d] focus:border-none"
+              className="px-4 indent-3 placeholder:indent-3 py-3 border text-gray-200 border-gray-300 rounded-2xl bg-gray-900 outline-none focus:ring-1 focus:ring-[#ffca0d] focus:border-none"
               rows="8"
               required
             />

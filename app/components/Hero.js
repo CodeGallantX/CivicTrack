@@ -14,12 +14,12 @@ export default function Hero() {
           holding leaders accountable to their communities.
         </p>
         <div className="flex flex-col sm:flex-row gap-10 md:gap-4 mt-10">
-          <Link href="/explore">
+          <Link href="/politicians">
             <span className="bg-[#ffca0d] text-gray-900 py-4 px-8 rounded text-lg font-semibold transition hover:bg-transparent hover:border-[#ffca0d] hover:border hover:text-[#ffca0d]">
               Explore Data
             </span>
           </Link>
-          <Link href="/contact">
+          <Link href="/login">
             <span className="border border-[#ffca0d] text-[#ffca0d] py-4 px-8 rounded text-lg font-semibold transition hover:bg-[#ffca0d] hover:text-gray-900">
               Get Started
             </span>

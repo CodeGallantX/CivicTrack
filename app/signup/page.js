@@ -31,7 +31,9 @@ const App = () => {
       <div className='absolute w-full opacity-40 h-full bg-black backdrop-blur-xl'></div>
         <div className='relative text-white top-1/4 left-5'>
           <div className='flex flex-col items-center justify-between gap-10 px-8'>
-            <Link href='/' className="text-4xl text-left font-bold">CivicTrack</Link>
+          <Link id="logo" href="/" className="text-white text-3xl font-bold font-main">
+          Civic<span className="text-[#ffca0d]">Track</span>
+        </Link>
             <div className="flex flex-col gap-2 items-start px-6 ">
               <blockquote className="text-left text-4xl">&ldquo;The secret of getting ahead is getting started.&rdquo;</blockquote>
               <em className='text-right text-xl'>— Mark Twain</em>
