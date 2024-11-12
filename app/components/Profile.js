@@ -20,7 +20,7 @@ const PoliticianProfile = ({ politician }) => {
                 {politician.position} of {politician.country}
               </p>
               <p className="text-sm md:text-md italic">Nickname: {politician.nickname}</p>
-              <p className="mt-4 text-sm md:text-base">{politician.bio}</p>
+              <p className="mt-4 text-sm md:text-base">{politician.longBio}</p>
 
               <div className="mt-6">
                 <h3 className="text-lg md:text-xl font-semibold">Key Achievements:</h3>
