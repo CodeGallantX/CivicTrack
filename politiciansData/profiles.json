@@ -61,6 +61,111 @@
         "First female and first African Director-General of the WTO.",
         "Led Nigeria’s economic recovery efforts as Finance Minister."
       ]
-    }
+    },
+      {
+        "id": 4,
+        "name": "Cyril Ramaphosa",
+        "nickname": "The Negotiator",
+        "position": "President",
+        "party": "African National Congress",
+        "country": "South Africa",
+        "state": "Gauteng",
+        "age": 71,
+        "birthplace": "Johannesburg, South Africa",
+        "bio": "Cyril Ramaphosa, President of South Africa, is known for his role in the anti-apartheid movement and his business acumen. He strives to address South Africa's economic and social challenges.",
+        "photo": "/assets/politicians/cyril_ramaphosa.jpg",
+        "socialMedia": {
+          "twitter": "https://twitter.com/CyrilRamaphosa",
+          "facebook": "https://facebook.com/CyrilRamaphosa"
+        },
+        "achievements": [
+          "Instrumental in the anti-apartheid negotiations.",
+          "Implemented economic reforms to address inequality in South Africa."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Samia Suluhu Hassan",
+        "nickname": "The Trailblazer",
+        "position": "President",
+        "party": "Chama Cha Mapinduzi",
+        "country": "Tanzania",
+        "state": "Dodoma",
+        "age": 63,
+        "birthplace": "Zanzibar, Tanzania",
+        "bio": "Samia Suluhu Hassan is the first female president of Tanzania, committed to advancing gender equality and strengthening the Tanzanian economy.",
+        "photo": "/assets/politicians/samia_suluhu.jpg",
+        "socialMedia": {
+          "twitter": "https://twitter.com/SuluhuSamia",
+          "facebook": "https://facebook.com/SuluhuSamia"
+        },
+        "achievements": [
+          "First female president of Tanzania.",
+          "Promoted healthcare and education reforms."
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Macky Sall",
+        "nickname": "The Reformer",
+        "position": "President",
+        "party": "Alliance for the Republic",
+        "country": "Senegal",
+        "state": "Dakar",
+        "age": 62,
+        "birthplace": "Fatick, Senegal",
+        "bio": "Macky Sall, President of Senegal, is known for his economic reforms and efforts to stabilize the West African region.",
+        "photo": "/assets/politicians/macky_sall.jpg",
+        "socialMedia": {
+          "twitter": "https://twitter.com/Macky_Sall",
+          "facebook": "https://facebook.com/MackySall"
+        },
+        "achievements": [
+          "Initiated economic development projects across Senegal.",
+          "Enhanced Senegal's infrastructure and energy sectors."
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Ellen Johnson Sirleaf",
+        "nickname": "Africa's Iron Lady",
+        "position": "Former President",
+        "party": "Unity Party",
+        "country": "Liberia",
+        "state": "Monrovia",
+        "age": 85,
+        "birthplace": "Monrovia, Liberia",
+        "bio": "Ellen Johnson Sirleaf, Africa's first elected female head of state, led Liberia through post-war recovery and was awarded the Nobel Peace Prize.",
+        "photo": "/assets/politicians/ellen_johnson_sirleaf.jpg",
+        "socialMedia": {
+          "twitter": "https://twitter.com/EJSirleaf",
+          "facebook": "https://facebook.com/EllenSirleaf"
+        },
+        "achievements": [
+          "First female president in Africa.",
+          "Awarded the Nobel Peace Prize for her work in promoting peace and gender equality."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Uhuru Kenyatta",
+        "nickname": "The Visionary",
+        "position": "Former President",
+        "party": "Jubilee Party",
+        "country": "Kenya",
+        "state": "Nairobi",
+        "age": 62,
+        "birthplace": "Nairobi, Kenya",
+        "bio": "Uhuru Kenyatta, former president of Kenya, worked on significant infrastructure projects and championed regional stability initiatives.",
+        "photo": "/assets/politicians/uhuru_kenyatta.jpg",
+        "socialMedia": {
+          "twitter": "https://twitter.com/UKenyatta",
+          "facebook": "https://facebook.com/UhuruKenyatta"
+        },
+        "achievements": [
+          "Enhanced Kenya's infrastructure, including the Standard Gauge Railway.",
+          "Promoted regional trade and stability in East Africa."
+        ]
+      }
   ]
   

@@ -8,7 +8,7 @@ const PoliticianCards = ({ politicians }) => {
       {politicians.map((politician) => (
         <div
           key={politician.id}
-          className="bg-white group shadow-xl rounded-lg overflow-hidden duration-300 ease-in-out"
+          className="bg-gray-200 group shadow-xl rounded-lg overflow-hidden duration-300 ease-in-out"
         >
           <div className="relative">
             <img

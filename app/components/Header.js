@@ -93,7 +93,8 @@ const Header = () => {
 
             <div className="mt-4">
               <h2 className="text-xl text-white">Support Us</h2>
-              <div className="flex gap-4 mt-2">
+              <div className="flex flex-col text-white gap-1 mt-4 text-base">
+                Give us a star
                 <Link
           href="https://github.com/CodeGallantX/CivicTrack/stargazers" 
           target="_blank" 
@@ -103,7 +104,7 @@ const Header = () => {
           <img 
             src="https://img.shields.io/github/stars/CodeGallantX/CivicTrack?style=social" 
             alt="GitHub stars"
-            className="ml-2"
+            className="h-auto w-24"
           />
         </Link>
               </div>
