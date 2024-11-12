@@ -37,10 +37,10 @@ const Portfolio = async ({ params }) => {
   );
 
   const page = {
-    title: 'Portfolio',
+    title: `${politician.name}`,
     breadcrumb: [
       { name: 'Politicians', path: '/politicians' },
-      { name: 'Portfolio', path: `/politicians/portfolio/${politicianId}` },
+      { name: `${politician.name}`, path: `/politicians/portfolio/${politicianId}` },
     ],
   };
 
@@ -49,12 +49,6 @@ const Portfolio = async ({ params }) => {
       <Header />
       <Banner page={page} />
       <div className="container mx-auto px-4 py-10">
-        <h2 className="text-3xl font-bold text-white text-center mb-8">
-          {politician.name}&apos;s Portfolio
-        </h2>
-        <p className="text-lg text-center text-white mb-10">
-          Explore the portfolio of {politician.name}, learn about the projects they are involved in.
-        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {politicianPortfolios.map((project) => (
             <div key={project.id} className="bg-gray-200 shadow-lg rounded-lg overflow-hidden">
