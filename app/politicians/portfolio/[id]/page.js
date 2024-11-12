@@ -3,9 +3,9 @@
 import fs from 'fs';
 import path from 'path';
 import React from 'react';
-import Header from '../../../../components/Header';
-import Footer from '../../../../components/Footer';
-import Banner from '../../../../components/Banner';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import Banner from '../../../components/Banner';
 
 async function fetchPoliticians() {
   const filePath = path.join(process.cwd(), 'data', 'politicians.json');
