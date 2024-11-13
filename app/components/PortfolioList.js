@@ -33,9 +33,9 @@ const PortfolioList = ({ portfolios }) => {
                     className="w-full h-32 object-cover rounded-t-lg"
                   />
                   <div className="p-4">
-                    <h5 className="font-semibold text-sm">{project.title}</h5>
+                    <h5 className="font-semibold text-lg">{project.title}</h5>
                     <p className="text-xs mt-2">{project.status}</p>
-                    <p className="mt-2 text-xs text-gray-700">{project.impact}</p>
+                    <p className="mt-2 text-sm text-gray-300">{project.impact}</p>
                   </div>
                 </div>
               ))}
