@@ -44,15 +44,15 @@ const PoliticianProfile = ({ politician }) => {
 
               <div className="mt-6">
                 <p className="font-semibold text-sm md:text-base">Social Media:</p>
-                <ul className="flex flex-wrap space-x-4 text-sm md:text-base">
+                <ul className="flex flex-wrap space-x-4 mt-2 text-sm md:text-base">
                   {politician.socialMedia?.twitter && (
-                    <li><a href={politician.socialMedia.twitter} target="_blank" className="text-blue-500"><FaXTwitter/></a></li>
+                    <li><a href={politician.socialMedia.twitter} target="_blank" className="text-white text-xl hover:text-[#ffca0d]"><FaXTwitter/></a></li>
                   )}
                   {politician.socialMedia?.facebook && (
-                    <li><a href={politician.socialMedia.facebook} target="_blank" className="text-blue-600"><FaFacebook/></a></li>
+                    <li><a href={politician.socialMedia.facebook} target="_blank" className="text-white text-xl hover:text-[#ffca0d]"><FaFacebook/></a></li>
                   )}
                   {politician.socialMedia?.linkedin && (
-                    <li><a href={politician.socialMedia.linkedin} target="_blank" className="text-blue-700"><FaLinkedin/></a></li>
+                    <li><a href={politician.socialMedia.linkedin} target="_blank" className="text-white text-xl hover:text-[#ffca0d]"><FaLinkedin/></a></li>
                   )}
                 </ul>
               </div>
