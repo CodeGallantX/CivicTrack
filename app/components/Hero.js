@@ -24,7 +24,7 @@ export default function Hero() {
             holding leaders accountable to their communities.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center lg:items-start gap-8 mt-4 justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row items-center lg:items-start space-y-4 md:space-y-0 md:gap-8 mt-4 justify-center lg:justify-start">
             <Link href="/politicians">
               <span className="bg-[#ffca0d] text-gray-900 py-4 px-8 rounded text-lg font-semibold transition hover:bg-transparent hover:border-[#ffca0d] hover:border hover:text-[#ffca0d]">
                 Explore Data
