@@ -71,17 +71,47 @@ CivicTrack is an open-source platform developed with Next.js and styled using Ta
 
 ### **Homepage**  
 **File**: `app/page.js`  
-**Description**: Displays the Hero component and introduces CivicTrack's mission. The page serves as the primary entry point for users.
+**Description**: Introduces CivicTrack's mission and vision, displaying key components like the Hero section, featured politicians, and recent portfolios. The homepage is designed to engage users with CivicTrack's purpose, with calls-to-action to explore data or get started.
 
 ### **Politicians List Page**  
 **File**: `app/politicians/page.js`  
-**Description**: Lists all politicians, along with a sidebar for filtering options provided by the `FilterSidebar` component. The data is sourced from `politicians.json`, allowing users to view information like name, role, and country.
+**Description**: Provides a comprehensive list of all politicians. The page integrates the `FilterSidebar` component for filtering by name, role, and country, allowing users to refine their search and explore specific individuals or groups. Politician data is sourced from `politicians.json`.
+
+### **Politician Detail Page**  
+**File**: `app/politicians/[id]/page.js`  
+**Description**: Displays detailed information about a specific politician based on their `id`. Users can view the politician’s biography, achievements, portfolios, and social media links. The Profile component is utilized here to present a cohesive, in-depth view of the selected politician.
 
 ### **Portfolio Detail Page**  
 **File**: `app/politicians/portfolio/[id]/page.js`  
-**Description**: Shows detailed portfolio information for a specific politician based on their `id`. It uses dynamic routing to identify the politician and display related portfolio details stored in `portfolio.json`.
+**Description**: Shows detailed portfolio information for a specific project associated with a politician, identified by `id`. The page provides insights into project objectives, status, and progress metrics stored in `portfolio.json`.
 
----
+### **Contact Page**  
+**File**: `app/contact/page.js`  
+**Description**: Contains a contact form for users to reach out with inquiries, suggestions, or feedback. This page helps CivicTrack foster engagement by providing an accessible channel for communication with users.
+
+### **About Page**  
+**File**: `app/about/page.js`  
+**Description**: Provides background information about CivicTrack's purpose, mission, and values, highlighting the team and the platform's role in promoting political transparency. This page builds credibility and educates users on CivicTrack's goals.
+
+### **Login Page**  
+**File**: `app/login/page.js`  
+**Description**: Allows users to securely log in with their credentials. Styled with Tailwind CSS, this page provides error handling and links to the signup and forgot-password pages for additional support.
+
+### **Signup Page**  
+**File**: `app/signup/page.js`  
+**Description**: Contains a registration form for new users to create an account on CivicTrack. The page includes validation, guidelines, and a link to the login page to ensure a smooth onboarding process.
+
+### **Forgot Password Page**  
+**File**: `app/forgot-password/page.js`  
+**Description**: Helps users reset their password in case they have forgotten it. Users enter their email to receive a password reset link, enhancing account security and accessibility.
+
+### **404 Page**  
+**File**: `app/[...catchAll]/page.js`  
+**Description**: A custom error page displayed when users access a non-existent route. Styled with CivicTrack’s theme, it offers a friendly message and a link back to the homepage, ensuring users can easily navigate back to the site.
+
+--- 
+
+These pages together create a seamless, user-friendly experience that allows CivicTrack users to explore, learn, and engage with political transparency in a structured, intuitive manner.
 
 ## Data Management
 
