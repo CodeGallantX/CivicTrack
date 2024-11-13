@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #ffffff;
+  --secondary: #ffca0d;
+  --bg-primary: #111827;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,9 +17,30 @@
   }
 }
 
-
 body {
   font-family: var(--font-dm-sans, 'DM Sans'), sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #111;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 3px solid var(--secondary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fccb19;
 }
 
 h1, h2, h3, h4, h5, h6, #logo {
