@@ -1,4 +1,3 @@
-// components/Sidebar.js
 "use client"
 import { useState } from 'react';
 
@@ -7,21 +6,18 @@ const PortfolioFilter = ({ onFilterChange }) => {
   const [selectedYear, setSelectedYear] = useState('');
   const [selectedTags, setSelectedTags] = useState([]);
 
-  // Handle category selection
   const handleCategoryChange = (e) => {
     const category = e.target.value;
     setSelectedCategory(category);
     onFilterChange({ category, year: selectedYear, tags: selectedTags });
   };
 
-  // Handle year selection
   const handleYearChange = (e) => {
     const year = e.target.value;
     setSelectedYear(year);
     onFilterChange({ category: selectedCategory, year, tags: selectedTags });
   };
 
-  // Handle tag selection
   const handleTagChange = (tag, isChecked) => {
     const updatedTags = isChecked
       ? [...selectedTags, tag]
@@ -34,7 +30,6 @@ const PortfolioFilter = ({ onFilterChange }) => {
     <div className="w-1/4 hidden lg:block p-4 bg-gray-800 rounded-lg shadow-md space-y-6">
       <h2 className="text-xl font-semibold text-gray-200">Filter Portfolio</h2>
 
-      {/* Category Filter */}
       <div>
         <h3 className="text-lg text-gray-400">Categories</h3>
         <select
@@ -49,7 +44,6 @@ const PortfolioFilter = ({ onFilterChange }) => {
         </select>
       </div>
 
-      {/* Year Filter */}
       <div>
         <h3 className="text-lg text-gray-400">Year</h3>
         <select
@@ -64,7 +58,6 @@ const PortfolioFilter = ({ onFilterChange }) => {
         </select>
       </div>
 
-      {/* Tags Filter */}
       <div>
         <h3 className="text-lg text-gray-400">Tags</h3>
         <div className="space-x-2">

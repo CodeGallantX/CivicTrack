@@ -2,13 +2,13 @@
   {
     "id": 1,
     "name": "Paul Kagame",
-    "nickname": "The Transformer",
+    "nickname": "Pilato",
     "position": "President",
     "party": "Rwandan Patriotic Front",
     "country": "Rwanda",
     "flag": "/assets/flags/Flag_of_Rwanda.svg.png",
     "state": "Kigali",
-    "age": 66,
+    "dateOfBirth": "1957-10-23",
     "birthplace": "Gitarama, Rwanda",
     "socialMedia": {
       "twitter": "https://twitter.com/PaulKagame",
@@ -25,13 +25,13 @@
   {
     "id": 2,
     "name": "Abiy Ahmed Ali",
-    "nickname": "The Peace Maker",
+    "nickname": "N/A",
     "position": "Prime Minister",
     "party": "Prosperity Party",
     "country": "Ethiopia",
     "flag": "/assets/flags/Flag_of_Ethiopia.svg.png",
     "state": "Addis Ababa",
-    "age": 47,
+    "dateOfBirth": "1976-08-15",
     "birthplace": "Beshasha, Ethiopia",
     "socialMedia": {
       "twitter": "https://twitter.com/AbiyAhmedAli",
@@ -45,208 +45,301 @@
         "Initiated economic and political reforms in Ethiopia."
       ]
   },
-  {
-    "id": 3,
-    "name": "Ngozi Okonjo-Iweala",
-    "nickname": "The Economic Genius",
-    "position": "Director-General",
-    "party": "Independent",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "state": "Delta",
-    "age": 69,
-    "birthplace": "Ogwashi-Ukwu, Nigeria",
-    "socialMedia": {
-      "twitter": "https://twitter.comNOIweala",
-      "linkedin": "https://linkedin.com/in/ngoziokonjo-iweala"
-    },
-    "shortBio": " Director-General of the WTO and former Nigerian finance minister, known for her economic expertise",
-    "longBio": "Ngozi Okonjo-Iweala is the Director-General of the World Trade Organization and a former Nigerian finance minister. Known for her economic expertise, she is a strong advocate for global economic reform.",
-    "photo": "/assets/politicians/Ngozi-Okonjo-Iweala.jpg",
-    "achievements": [
+    {
+      "id": 3,
+      "name": "Ngozi Okonjo-Iweala",
+      "nickname": "Okonjo-Wahala",
+      "position": "Director-General",
+      "party": "Independent",
+      "country": "Nigeria",
+      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "state": "Delta",
+      "dateOfBirth": "1954-06-13",
+      "birthplace": "Ogwashi-Ukwu, Nigeria",
+      "socialMedia": {
+        "twitter": "https://twitter.com/NOIweala",
+        "linkedin": "https://linkedin.com/in/ngozi-okonjo-iweala"
+      },
+      "shortBio": "Director-General of the WTO and former Nigerian finance minister, known for her economic expertise.",
+      "longBio": "Ngozi Okonjo-Iweala is the Director-General of the World Trade Organization and a former Nigerian finance minister. Known for her economic expertise, she is a strong advocate for global economic reform.",
+      "photo": "/assets/politicians/Ngozi-Okonjo-Iweala.jpg",
+      "achievements": [
         "First female and first African Director-General of the WTO.",
         "Led Nigeria’s economic recovery efforts as Finance Minister."
       ]
+    },
+    {
+      "id": 4,
+      "name": "Cyril Ramaphosa",
+      "nickname": "Buffalo",
+      "position": "President",
+      "party": "African National Congress (ANC)",
+      "country": "South Africa",
+      "flag": "/assets/flags/Flag_of_South_Africa.svg.png",
+      "state": "Gauteng",
+      "dateOfBirth": "1952-11-17",
+      "birthplace": "Johannesburg, Gauteng, South Africa",
+      "socialMedia": {
+          "twitter": "https://twitter.com/CyrilRamaphosa",
+          "facebook": "https://facebook.com/CyrilRamaphosa"
+      },
+      "shortBio": "President of South Africa since 2018, former anti-apartheid activist, and businessman focused on economic growth.",
+      "longBio": "Cyril Ramaphosa, President of South Africa since 2018, is a renowned anti-apartheid activist, union leader, and businessman who has focused on implementing economic reforms and addressing inequality.",
+      "photo": "/assets/politicians/cyril-ramaphosa.jpeg",
+      "achievements": [
+          "Instrumental in the anti-apartheid negotiations.",
+          "Implemented economic reforms to address inequality in South Africa."
+      ]
   },
   {
-    "id": 4,
-    "name": "Cyril Ramaphosa",
-    "position": "President",
-    "party": "African National Congress (ANC)",
-    "country": "South Africa",
-    "age": 71,
-    "socialMedia": {
-      "twitter": "https://twitter.com/CyrilRamaphosa",
-      "facebook": "https://facebook.com/CyrilRamaphosa"
-    },
-    "shortBio": "President of South Africa since 2018, former anti-apartheid activist, and businessman focused on economic growth.",
-    "photo": "/assets/politicians/cyril-ramaphosa.jpeg"
+      "id": 5,
+      "name": "Amina Mohammed",
+      "nickname": "N/A",
+      "position": "Deputy President",
+      "party": "Jubilee Party",
+      "country": "Kenya",
+      "flag": "/assets/flags/Flag_of_Kenya.svg.png",
+      "state": "Kakamega",
+      "dateOfBirth": "1962-10-19",
+      "birthplace": "Kakamega, Kenya",
+      "socialMedia": {
+          "twitter": "https://twitter.com/AminaMohammed",
+          "linkedin": "https://linkedin.com/in/amina-mohammed"
+      },
+      "shortBio": "Deputy President of Kenya, former Cabinet Secretary for Foreign Affairs, and international advocate for climate and trade.",
+      "longBio": "Amina Mohammed is Kenya’s Deputy President and a former Cabinet Secretary for Foreign Affairs. She is an advocate for international climate action and sustainable trade.",
+      "photo": "/assets/politicians/amina_mohammed.jpg",
+      "achievements": [
+          "Pioneered Kenya’s foreign policy on climate and trade.",
+          "Led international advocacy on sustainable development goals."
+      ]
   },
   {
-    "id": 5,
-    "name": "Amina Mohammed",
-    "position": "Deputy President",
-    "party": "Jubilee Party",
-    "country": "Kenya",
-    "flag": "/assets/flags/Flag_of_Kenya.svg.png",
-    "age": 61,
-    "socialMedia": {
-      "twitter": "https://twitter.com/AminaMohammed",
-      "linkedin": "https://linkedin.com/in/amina-mohammed"
-    },
-    "shortBio": "Deputy President of Kenya, former Cabinet Secretary for Foreign Affairs, and international advocate for climate and trade.",
-    "photo": "/assets/politicians/amina_mohammed.jpg"
+      "id": 6,
+      "name": "Muhammadu Buhari",
+      "nickname": "Mai Gaskiya",
+      "position": "President",
+      "party": "All Progressives Congress (APC)",
+      "country": "Nigeria",
+      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "state": "Katsina",
+      "dateOfBirth": "1942-12-17",
+      "birthplace": "Daura, Katsina, Nigeria",
+      "socialMedia": {
+          "twitter": "https://twitter.com/MBuhari",
+          "facebook": "https://facebook.com/MuhammaduBuhari"
+      },
+      "shortBio": "President of Nigeria since 2015, focused on anti-corruption, security, and economic reforms.",
+      "longBio": "Muhammadu Buhari, President of Nigeria since 2015, has prioritized anti-corruption measures, security, and economic reforms throughout his tenure.",
+      "photo": "/assets/politicians/muhammadu-buhari.jpg",
+      "achievements": [
+          "Led Nigeria’s anti-corruption campaign.",
+          "Implemented economic and security reforms."
+      ]
   },
   {
-    "id": 6,
-    "name": "Muhammadu Buhari",
-    "position": "President",
-    "party": "All Progressives Congress (APC)",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "age": 81,
-    "socialMedia": {
-      "twitter": "https://twitter.com/MBuhari",
-      "facebook": "https://facebook.com/MuhammaduBuhari"
-    },
-    "shortBio": "President of Nigeria since 2015, focused on anti-corruption, security, and economic reforms",
-    "photo": "/assets/politicians/muhammadu-buhari.jpg"
+      "id": 7,
+      "name": "Goodluck Jonathan",
+      "nickname": "GEJ",
+      "position": "Former President",
+      "party": "People's Democratic Party (PDP)",
+      "country": "Nigeria",
+      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "state": "Bayelsa",
+      "dateOfBirth": "1957-11-20",
+      "birthplace": "Ogbia, Bayelsa, Nigeria",
+      "socialMedia": {
+          "twitter": "https://twitter.com/GEJonathan",
+          "facebook": "https://facebook.com/GEJonathan"
+      },
+      "shortBio": "Former President of Nigeria, known for democratic reforms and infrastructure development.",
+      "longBio": "Goodluck Jonathan, former President of Nigeria, is known for advancing democratic reforms and prioritizing infrastructure development during his administration.",
+      "photo": "/assets/politicians/Goodluck-Jonathanjpeg.jpeg",
+      "achievements": [
+          "Advanced democratic processes and electoral reforms.",
+          "Promoted infrastructure projects across Nigeria."
+      ]
   },
   {
-    "id": 7,
-    "name": "Goodluck Jonathan",
-    "position": "Former President",
-    "party": "People's Democratic Party (PDP)",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "age": 66,
-    "socialMedia": {
-      "twitter": "https://twitter.com/GEJonathan",
-      "facebook": "https://facebook.com/GEJonathan"
-    },
-    "shortBio": "Former President of Nigeria, known for democratic reforms and infrastructure development.",
-    "photo": "/assets/politicians/Goodluck-Jonathanjpeg.jpeg/"
+      "id": 8,
+      "name": "Uhuru Kenyatta",
+      "nickname": "Uhunye",
+      "position": "Former President",
+      "party": "Jubilee Party",
+      "country": "Kenya",
+      "flag": "/assets/flags/Flag_of_Kenya.svg.png",
+      "state": "Nairobi",
+      "dateOfBirth": "1961-10-26",
+      "birthplace": "Nairobi, Kenya",
+      "socialMedia": {
+          "twitter": "https://twitter.com/UKenyatta",
+          "facebook": "https://facebook.com/uhuru.kenyatta"
+      },
+      "shortBio": "Former President of Kenya, focused on infrastructure, economic growth, and regional security.",
+      "longBio": "Uhuru Kenyatta, former President of Kenya, is noted for his focus on economic growth, regional security, and major infrastructure projects across Kenya.",
+      "photo": "/assets/politicians/Uhuru-Kenyatta.webp",
+      "achievements": [
+          "Championed major infrastructure projects.",
+          "Strengthened Kenya’s economic and security ties."
+      ]
   },
-  {
-    "id": 8,
-    "name": "Uhuru Kenyatta",
-    "position": "President",
-    "party": "Jubilee Party",
-    "country": "Kenya",
-    "flag": "/assets/flags/Flag_of_Kenya.svg.png",
-    "age": 62,
-    "socialMedia": {
-      "twitter": "https://twitter.com/UKenyatta",
-      "facebook": "https://facebook.com/uhuru.kenyatta"
+    {
+      "id": 10,
+      "name": "Raila Odinga",
+      "nickname": "Baba",
+      "position": "Former Prime Minister",
+      "party": "Orange Democratic Movement (ODM)",
+      "country": "Kenya",
+      "flag": "/assets/flags/Flag_of_Kenya.svg.png",
+      "state": "Kisumu",
+      "dateOfBirth": "1945-01-07",
+      "birthplace": "Kisumu, Kenya",
+      "socialMedia": {
+        "twitter": "https://twitter.com/RailaOdinga",
+        "facebook": "https://facebook.com/RailaOdinga"
+      },
+      "shortBio": "Opposition leader and former Prime Minister of Kenya, advocate for democracy and social reforms.",
+      "longBio": "Raila Odinga, widely known as 'Baba,' has been a prominent figure in Kenya’s political landscape as a former Prime Minister and a vocal advocate for democracy and social reforms.",
+      "photo": "/assets/politicians/raila-odinga.png",
+      "achievements": [
+        "Former Prime Minister of Kenya.",
+        "Vocal advocate for democracy and social reforms."
+      ]
     },
-    "shortBio": "Former President of Kenya, focused on infrastructure, economic growth, and regional security.",
-    "photo": "/assets/politicians/Uhuru-Kenyatta.webp"
-  },
-
-  {
-    "id": 9,
-    "name": "Bola Tinubu",
-    "position": "President-elect",
-    "party": "All Progressives Congress (APC)",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "age": 72,
-    "socialMedia": {
-      "twitter": "https://twitter.com/officialABAT",
-      "facebook": "https://facebook.com/BolaTinubu"
+    {
+      "id": 11,
+      "name": "Aisha Buhari",
+      "position": "First Lady of Nigeria",
+      "party": "All Progressives Congress (APC)",
+      "country": "Nigeria",
+      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "state": "Adamawa",
+      "dateOfBirth": "1971-02-17",
+      "birthplace": "Adamawa, Nigeria",
+      "socialMedia": {
+        "twitter": "https://twitter.com/aishambuhari",
+        "facebook": "https://facebook.com/AishaBuhari"
+      },
+      "shortBio": "First Lady of Nigeria, active in women's empowerment, youth development, and healthcare.",
+      "longBio": "Aisha Buhari, First Lady of Nigeria, is known for her initiatives in women's empowerment, youth development, and healthcare reform, advocating for a better society.",
+      "photo": "/assets/politicians/aisha-buhari.webp",
+      "achievements": [
+        "Prominent in women's empowerment and healthcare reforms.",
+        "Advocated for youth development in Nigeria."
+      ]
     },
-    "shortBio": "President-elect of Nigeria, former Lagos State governor, and political kingmaker.",
-    "photo": "/assets/politicians/bola_tinubu.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Raila Odinga",
-    "position": "Opposition Leader",
-    "party": "Orange Democratic Movement (ODM)",
-    "country": "Kenya",
-    "flag": "/assets/flags/Flag_of_Kenya.svg.png",
-    "age": 79,
-    "socialMedia": {
-      "twitter": "https://twitter.com/RailaOdinga",
-      "facebook": "https://facebook.com/RailaOdinga"
+    {
+      "id": 12,
+      "name": "Samia Suluhu Hassan",
+      "nickname": "Mama Samia",
+      "position": "President",
+      "party": "Chama Cha Mapinduzi",
+      "country": "Tanzania",
+      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "state": "Dodoma",
+      "dateOfBirth": "1960-01-27",
+      "birthplace": "Zanzibar, Tanzania",
+      "socialMedia": {
+        "twitter": "https://twitter.com/SuluhuSamia",
+        "facebook": "https://facebook.com/SuluhuSamia"
+      },
+      "shortBio": "First female president of Tanzania, committed to advancing gender equality and strengthening the Tanzanian economy.",
+      "longBio": "Samia Suluhu Hassan, affectionately called 'Mama Samia,' is the first female president of Tanzania, with a focus on gender equality and economic growth for the nation.",
+      "photo": "/assets/politicians/samia-suluhu.webp",
+      "achievements": [
+        "First female president of Tanzania.",
+        "Promoted healthcare and education reforms."
+      ]
     },
-    "shortBio": "Opposition leader and former Prime Minister of Kenya, advocate for democracy and social reforms.",
-    "photo": "/assets/politicians/raila_odinga.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Aisha Buhari",
-    "position": "First Lady of Nigeria",
-    "party": "All Progressives Congress (APC)",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "age": 53,
-    "socialMedia": {
-      "twitter": "https://twitter.com/aishambuhari",
-      "facebook": "https://facebook.com/officialaishabuhari"
+    {
+      "id": 13,
+      "name": "Rochas Okorocha",
+      "nickname": "Owelle",
+      "position": "Senator",
+      "party": "All Progressives Congress (APC)",
+      "country": "Nigeria",
+      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "state": "Imo",
+      "dateOfBirth": "1962-09-22",
+      "birthplace": "Ogbia, Nigeria",
+      "socialMedia": {
+        "twitter": "https://twitter.com/realrochas",
+        "facebook": "https://facebook.com/rochamogbo"
+      },
+      "shortBio": "Nigerian senator, former governor of Imo State, and education advocate.",
+      "longBio": "Rochas Okorocha, known as 'Owelle,' is a Nigerian senator and former governor of Imo State, recognized for his initiatives in education and youth empowerment.",
+      "photo": "/assets/politicians/rochas-okorocha.jpg",
+      "achievements": [
+        "Former governor of Imo State.",
+        "Advocated for education reform and youth empowerment."
+      ]
     },
-    "shortBio": " First Lady of Nigeria, active in women's empowerment, youth development, and healthcare.",
-    "photo": "/assets/politicians/aisha_buhari.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Rochas Okorocha",
-    "position": "Senator",
-    "party": "All Progressives Congress (APC)",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "age": 52,
-    "socialMedia": {
-      "twitter": "https://twitter.com/realrochas",
-      "facebook": "https://facebook.com/rochamogbo"
+    {
+      "id": 15,
+      "name": "Ellen Johnson Sirleaf",
+      "nickname": "Africa's Iron Lady",
+      "position": "Former President",
+      "party": "Unity Party",
+      "country": "Liberia",
+      "state": "Monrovia",
+      "dateOfBirth": "1938-10-29",
+      "birthplace": "Monrovia, Liberia",
+      "socialMedia": {
+        "twitter": "https://twitter.com/EJSirleaf",
+        "facebook": "https://facebook.com/EllenSirleaf"
+      },
+      "shortBio": "Africa's first elected female head of state, led Liberia through post-war recovery and was awarded the Nobel Peace Prize.",
+      "longBio": "Ellen Johnson Sirleaf, known as 'Africa's Iron Lady,' is celebrated as Africa's first elected female president, recognized for her Nobel-winning efforts in peace and gender equality.",
+      "photo": "/assets/politicians/Ellen_Johnson-Sirleaf.jpg",
+      "achievements": [
+        "First female president in Africa.",
+        "Awarded the Nobel Peace Prize for her work in promoting peace and gender equality."
+      ]
     },
-    "shortBio": "Nigerian senator, former governor of Imo State, and education advocate.",
-    "photo": "/assets/politicians/rochas_okorocha.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Chimamanda Ngozi Adichie",
-    "position": "Author & Political Advocate",
-    "party": "Independent",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "age": 46,
-    "socialMedia": {
-      "twitter": "https://twitter.com/ChimamandaReal",
-      "facebook": "https://facebook.com/ChimamandaAdichie"
+    {
+      "id": 16,
+      "name": "Florence Ita-Giwa",
+      "nickname": "Mama Bakassi",
+      "position": "Senator",
+      "party": "People's Democratic Party (PDP)",
+      "country": "Nigeria",
+      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "state": "Cross River",
+      "dateOfBirth": "1957-03-19",
+      "birthplace": "Calabar, Nigeria",
+      "socialMedia": {
+        "twitter": "https://twitter.com/ItaGiwa",
+        "facebook": "https://facebook.com/FlorenceItaGiwa"
+      },
+      "shortBio": "Former senator from Cross River State, focused on women’s welfare and healthcare development.",
+      "longBio": "Florence Ita-Giwa, affectionately called 'Mama Bakassi,' is a former Nigerian senator and advocate for women's welfare and healthcare, especially in the Bakassi region.",
+      "photo": "/assets/politicians/florence_ita-giwa.jpg",
+      "achievements": [
+        "Advocated for women's welfare and healthcare.",
+        "Focused on Bakassi region development."
+      ]
     },
-    "shortBio": "Renowned Nigerian author and advocate for gender equality and social justice.",
-    "photo": "/assets/politicians/chimamanda_adichie.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Senator Florence Ita-Giwa",
-    "position": "Senator",
-    "party": "People's Democratic Party (PDP)",
-    "country": "Nigeria",
-    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
-    "age": 66,
-    "socialMedia": {
-      "twitter": "https://twitter.com/ItaGiwa",
-      "facebook": "https://facebook.com/FlorenceItaGiwa"
-    },
-    "shortBio": "Former senator from Cross River State, focused on women’s welfare and healthcare development.",
-    "photo": "/assets/politicians/florence_ita-giwa.jpg"
-  },
-
-  {
-    "id": 15,
-    "name": "Martha Karua",
-    "position": "Deputy President (elect)",
-    "party": "NARC-Kenya",
-    "country": "Kenya",
-    "flag": "/assets/flags/Flag_of_Kenya.svg.png",
-    "age": 66,
-    "socialMedia": {
-      "twitter": "https://twitter.com/MarthaKarua",
-      "facebook": "https://facebook.com/MarthaKarua"
-    },
-    "shortBio": "Former Minister of Justice and deputy president candidate in Kenya, known for anti-corruption and human rights advocacy.",
-    "photo": "/assets/politicians/martha_karua.jpg"
-  }
-]
+    {
+      "id": 17,
+      "name": "Martha Karua",
+      "nickname": "Iron Lady",
+      "position": "Deputy President (elect)",
+      "party": "NARC-Kenya",
+      "country": "Kenya",
+      "flag": "/assets/flags/Flag_of_Kenya.svg.png",
+      "state": "Kirinyaga",
+      "dateOfBirth": "1957-04-22",
+      "birthplace": "Kirinyaga, Kenya",
+      "socialMedia": {
+        "twitter": "https://twitter.com/MarthaKarua",
+        "facebook": "https://facebook.com/MarthaKarua"
+      },
+      "shortBio": "Former Minister of Justice and deputy president candidate in Kenya, known for anti-corruption and human rights advocacy.",
+      "longBio": "Martha Karua, often called Kenya's 'Iron Lady,' is a staunch advocate for anti-corruption and human rights, with a distinguished career as a former Minister of Justice.",
+      "photo": "/assets/politicians/martha_karua.jpg",
+      "achievements": [
+        "Former Minister of Justice in Kenya.",
+        "Known for anti-corruption and human rights advocacy."
+      ]
+    }
+  ]

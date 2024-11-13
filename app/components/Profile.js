@@ -8,12 +8,11 @@ const PoliticianProfile = ({ politician }) => {
     return (
       <div className="bg-gray-900">
         <div className="w-full p-0 lg:px-4">
-          {/* Politician Profile Section */}
           <div className="bg-gray-800 p-3 lg:p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-start">
             <img
               src={politician.photo}
               alt={politician.name}
-              className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-cyan-500 mb-4 md:mb-0"
+              className="w-32 h-32 md:w-48 md:h-48 object-cover object-center rounded-full border-4 border-cyan-500 mb-4 md:mb-0"
             />
             
             <div className="text-white md:ml-8">
@@ -38,8 +37,8 @@ const PoliticianProfile = ({ politician }) => {
                 <p className="text-gray-300 text-sm md:text-base">{politician.birthplace}</p>
                 <p className="font-semibold text-sm md:text-base">State:</p>
                 <p className="text-gray-300 text-sm md:text-base">{politician.state}</p>
-                <p className="font-semibold text-sm md:text-base">Age:</p>
-                <p className="text-gray-300 text-sm md:text-base">{politician.age}</p>
+                <p className="font-semibold text-sm md:text-base">Born:</p>
+                <p className="text-gray-300 text-sm md:text-base">{politician.dateOfBirth}</p>
               </div>
 
               <div className="mt-6">
