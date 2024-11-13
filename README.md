@@ -43,7 +43,7 @@ CivicTrack is an open-source platform developed with Next.js and styled using Ta
 
 ### 5. **PoliticianCards**  
   **File**: `components/PoliticianCards.js`  
-  **Purpose**: A reusable card component that displays summarized information for each politician. Each card includes the politician's photo, name, role, and basic details, with links to view more detailed information. This component is styled to be visually appealing and adaptable across screen sizes.
+  **Purpose**: A reusable card component that displays summarized information for each politician. Each card includes the politician's photo, name, role, and short bio, with links to view more detailed information. This component is styled to be visually appealing and adaptable across screen sizes.
 
 ### 6. **FeaturedPortfolios**  
   **File**: `components/FeaturedPortfolios.js`  
