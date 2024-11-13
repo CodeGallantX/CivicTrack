@@ -177,11 +177,34 @@
       },
       "shortBio": "Former President of Kenya, focused on infrastructure, economic growth, and regional security.",
       "longBio": "Uhuru Kenyatta, former President of Kenya, is noted for his focus on economic growth, regional security, and major infrastructure projects across Kenya.",
-      "photo": "/assets/politicians/Uhuru-Kenyatta.webp",
+      "photo": "/assets/politicians/Uhuru-Kenyatta.jpg",
       "achievements": [
           "Championed major infrastructure projects.",
           "Strengthened Kenya’s economic and security ties."
       ]
+  },
+  
+  {
+    "id": 9,
+    "name": "Bola Tinubu",
+    "nickname": "Jagaban",
+    "position": "President-elect",
+    "party": "All Progressives Congress (APC)",
+    "country": "Nigeria",
+    "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+    "dateOfBirth": "1952-03-29",
+    "birthplace": "Lagos, Nigeria",
+    "socialMedia": {
+      "twitter": "https://twitter.com/officialABAT",
+      "facebook": "https://facebook.com/BolaTinubu"
+    },
+    "shortBio": "President-elect of Nigeria, former Lagos State governor, and political kingmaker.",
+    "longBio": "Bola Tinubu, Nigeria’s President-elect, is known for his political strategy and influence, having served as Lagos State governor and played a major role in political leadership transitions.",
+    "photo": "/assets/politicians/bola-tinubu.jpg",
+    "achievements": [
+      "Led Lagos State as governor, initiating economic growth.",
+      "Influential political figure in Nigerian governance."
+    ]
   },
     {
       "id": 10,
@@ -200,7 +223,7 @@
       },
       "shortBio": "Opposition leader and former Prime Minister of Kenya, advocate for democracy and social reforms.",
       "longBio": "Raila Odinga, widely known as 'Baba,' has been a prominent figure in Kenya’s political landscape as a former Prime Minister and a vocal advocate for democracy and social reforms.",
-      "photo": "/assets/politicians/raila-odinga.png",
+      "photo": "/assets/politicians/raila-odinga.jpg",
       "achievements": [
         "Former Prime Minister of Kenya.",
         "Vocal advocate for democracy and social reforms."
@@ -222,7 +245,7 @@
       },
       "shortBio": "First Lady of Nigeria, active in women's empowerment, youth development, and healthcare.",
       "longBio": "Aisha Buhari, First Lady of Nigeria, is known for her initiatives in women's empowerment, youth development, and healthcare reform, advocating for a better society.",
-      "photo": "/assets/politicians/aisha-buhari.webp",
+      "photo": "/assets/politicians/aisha-buhari.jpg",
       "achievements": [
         "Prominent in women's empowerment and healthcare reforms.",
         "Advocated for youth development in Nigeria."
@@ -235,7 +258,7 @@
       "position": "President",
       "party": "Chama Cha Mapinduzi",
       "country": "Tanzania",
-      "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
+      "flag": "/assets/flags/Flag_of_Tanzania.svg.png",
       "state": "Dodoma",
       "dateOfBirth": "1960-01-27",
       "birthplace": "Zanzibar, Tanzania",
@@ -245,7 +268,7 @@
       },
       "shortBio": "First female president of Tanzania, committed to advancing gender equality and strengthening the Tanzanian economy.",
       "longBio": "Samia Suluhu Hassan, affectionately called 'Mama Samia,' is the first female president of Tanzania, with a focus on gender equality and economic growth for the nation.",
-      "photo": "/assets/politicians/samia-suluhu.webp",
+      "photo": "/assets/politicians/samia-suluhu.jpg",
       "achievements": [
         "First female president of Tanzania.",
         "Promoted healthcare and education reforms."
@@ -276,11 +299,12 @@
     },
     {
       "id": 15,
-      "name": "Ellen Johnson Sirleaf",
+      "name": "Ellen Johnson-Sirleaf",
       "nickname": "Africa's Iron Lady",
       "position": "Former President",
       "party": "Unity Party",
       "country": "Liberia",
+      "flag": "/assets/flags/Flag_of_Liberia.svg.png",
       "state": "Monrovia",
       "dateOfBirth": "1938-10-29",
       "birthplace": "Monrovia, Liberia",
@@ -289,7 +313,7 @@
         "facebook": "https://facebook.com/EllenSirleaf"
       },
       "shortBio": "Africa's first elected female head of state, led Liberia through post-war recovery and was awarded the Nobel Peace Prize.",
-      "longBio": "Ellen Johnson Sirleaf, known as 'Africa's Iron Lady,' is celebrated as Africa's first elected female president, recognized for her Nobel-winning efforts in peace and gender equality.",
+      "longBio": "Ellen Johnson-Sirleaf, known as 'Africa's Iron Lady,' is celebrated as Africa's first elected female president, recognized for her Nobel-winning efforts in peace and gender equality.",
       "photo": "/assets/politicians/Ellen_Johnson-Sirleaf.jpg",
       "achievements": [
         "First female president in Africa.",
@@ -309,11 +333,12 @@
       "birthplace": "Calabar, Nigeria",
       "socialMedia": {
         "twitter": "https://twitter.com/ItaGiwa",
-        "facebook": "https://facebook.com/FlorenceItaGiwa"
+        "facebook": "https://facebook.com/FlorenceItaGiwa",
+        "instagram": "https://www.instagram.com/therealitagiwa"
       },
       "shortBio": "Former senator from Cross River State, focused on women’s welfare and healthcare development.",
       "longBio": "Florence Ita-Giwa, affectionately called 'Mama Bakassi,' is a former Nigerian senator and advocate for women's welfare and healthcare, especially in the Bakassi region.",
-      "photo": "/assets/politicians/florence_ita-giwa.jpg",
+      "photo": "/assets/politicians/Florence-Ita-Giwa.jpg",
       "achievements": [
         "Advocated for women's welfare and healthcare.",
         "Focused on Bakassi region development."
@@ -336,7 +361,7 @@
       },
       "shortBio": "Former Minister of Justice and deputy president candidate in Kenya, known for anti-corruption and human rights advocacy.",
       "longBio": "Martha Karua, often called Kenya's 'Iron Lady,' is a staunch advocate for anti-corruption and human rights, with a distinguished career as a former Minister of Justice.",
-      "photo": "/assets/politicians/martha_karua.jpg",
+      "photo": "/assets/politicians/martha-karua.jpg",
       "achievements": [
         "Former Minister of Justice in Kenya.",
         "Known for anti-corruption and human rights advocacy."
