@@ -70,6 +70,45 @@
           "img": "/assets/portfolios/rural_development.jpg"
         }
       ]
+    },
+    {
+      "id": 3,
+      "title": "Global Trade Policy Reform",
+      "description": "A global initiative aimed at reforming trade policies to ensure equitable access to markets and promote sustainable development in developing countries.",
+      "responsiblePoliticianId": 3,
+      "status": "Ongoing",
+      "impact": "Increased trade access for developing countries, reducing tariffs by 20% on key exports.",
+      "relatedLinks": [
+        {
+          "title": "World Trade Organization (WTO) Overview",
+          "url": "https://www.wto.org/global-trade-policy-reform"
+        },
+        {
+          "title": "Policy Paper on Trade Equity",
+          "url": "https://www.wto.org/trade-equity"
+        }
+      ],
+      "otherProjects": [
+        {
+          "title": "Debt Relief for Developing Nations",
+          "status": "Ongoing",
+          "impact": "Negotiated $50 billion in debt forgiveness for low-income countries.",
+          "img": "/assets/portfolios/debt_relief.jpg"
+        },
+        {
+          "title": "Sustainable Development Goals (SDGs) Advocacy",
+          "status": "Completed",
+          "impact": "Facilitated the achievement of 5 SDGs in over 40 countries.",
+          "img": "/assets/portfolios/sdg_advocacy.jpg"
+        },
+        {
+          "title": "African Continental Free Trade Area (AfCFTA)",
+          "status": "Ongoing",
+          "impact": "Led efforts to create a unified continental market, boosting intra-African trade by 15%.",
+          "img": "/assets/portfolios/afcfta.jpg"
+        }
+      ]
     }
+
   ]
   
