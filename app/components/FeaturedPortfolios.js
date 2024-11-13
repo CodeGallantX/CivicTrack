@@ -1,8 +1,8 @@
 const FeaturedPortfolios = ({ portfolios }) => {
     return (
-      <div className="mb-8">
+      <div className="mb-8 mt-6">
         <h2 className="text-2xl font-semibold text-gray-200">Featured Portfolios</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-4">
           {portfolios.map((portfolio) => (
             <div
               key={portfolio.id}

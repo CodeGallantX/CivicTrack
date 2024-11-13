@@ -2,7 +2,7 @@ const PortfolioList = ({ portfolios }) => {
   return (
     <div className="w-full">
       {portfolios.map((portfolio) => (
-        <div key={portfolio.id} className="bg-gray-800 overflow-hidden rounded-lg shadow-lg">
+        <div key={portfolio.id} className="overflow-hidden rounded-lg shadow-lg">
           {/* <div className="relative">
             <img
               src={portfolio.img}
@@ -22,8 +22,8 @@ const PortfolioList = ({ portfolios }) => {
             </p>
           </div> */}
 
-          <div className="p-4 bg-gradient-to-tl from-gray-800 to-purple-800  mt-4 rounded-b-lg">
-            <h4 className="text-lg font-semibold text-white">Other Projects</h4>
+          <div className="p-4 bg-gradient-to-tl from-gray-800 via-pink-700 to-purple-800  mt-4 rounded-lg">
+            <h4 className="text-xl font-semibold text-white">Other Projects</h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
               {portfolio.otherProjects.map((project, idx) => (
                 <div key={idx} className="bg-gray-800 rounded-lg overflow-hidden shadow-md">
