@@ -23,7 +23,7 @@ body {
   scrollbar-color: #888 #111;
 }
 
-/* Custom Scrollbar */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
