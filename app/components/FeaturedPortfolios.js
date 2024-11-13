@@ -17,7 +17,6 @@ const FeaturedPortfolios = ({ portfolios }) => {
                 </p>
               </div>
   
-              {/* Hover overlay effect */}
               <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
           ))}

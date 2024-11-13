@@ -1,4 +1,4 @@
-'use client'; // This is necessary for Client Components
+'use client';
 
 import React, { useState, useEffect } from 'react';
 
@@ -36,7 +36,6 @@ const FilterSidebar = ({ politicians }) => {
     }
   };
 
-  // Filter politicians based on all selected filters
   useEffect(() => {
     let result = politicians;
 
@@ -70,7 +69,6 @@ const FilterSidebar = ({ politicians }) => {
       );
     }
 
-    // Age Range Filter (assumes politician.age is a number)
     result = result.filter((politician) =>
       politician.age >= ageRangeFilter[0] && politician.age <= ageRangeFilter[1]
     );
@@ -82,7 +80,6 @@ const FilterSidebar = ({ politicians }) => {
     <div className="w-1/4 hidden lg:block bg-gray-800 text-white p-5 rounded-md shadow-lg">
       <h3 className="text-2xl font-semibold mb-4">Filter Politicians</h3>
 
-      {/* Name Filter */}
       <div className="mb-4">
         <label className="block text-sm font-semibold">Search by Name</label>
         <input
@@ -94,7 +91,6 @@ const FilterSidebar = ({ politicians }) => {
         />
       </div>
 
-      {/* Role Filter */}
       <div className="mb-4">
         <label className="block text-sm font-semibold">Filter by Role</label>
         <select
@@ -109,7 +105,6 @@ const FilterSidebar = ({ politicians }) => {
         </select>
       </div>
 
-      {/* Country Filter */}
       <div className="mb-4">
         <label className="block text-sm font-semibold">Filter by Country</label>
         <select
@@ -143,8 +138,6 @@ const FilterSidebar = ({ politicians }) => {
         </select>
       </div>
 
-
-      {/* Party Filter */}
       <div className="mb-4">
         <label className="block text-sm font-semibold">Filter by Party</label>
         <input
@@ -156,7 +149,6 @@ const FilterSidebar = ({ politicians }) => {
         />
       </div>
 
-      {/* Gender Filter */}
       <div className="mb-4">
         <label className="block text-sm font-semibold">Filter by Gender</label>
         <select
@@ -170,7 +162,6 @@ const FilterSidebar = ({ politicians }) => {
         </select>
       </div>
 
-      {/* Age Range Filter */}
       <div className="mb-4">
         <label className="block text-sm font-semibold">Filter by Age Range</label>
         <input

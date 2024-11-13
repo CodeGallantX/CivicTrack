@@ -7,8 +7,7 @@ export default function Hero() {
       <Header />
       <div className="relative flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between min-h-screen px-10 xl:px-24">
         
-        {/* Background Image */}
-        <div className="absolute w-full lg:w-2/5 lg:static top-10 inset-0 flex justify-center lg:justify-end items-center opacity-5 lg:opacity-100">
+        <div className="absolute w-full lg:w-2/5 lg:static top-10 inset-0 flex justify-center lg:justify-end items-center opacity-10 lg:opacity-100">
           <img
             src="/africa_003.svg"
             alt="africa map"
@@ -16,7 +15,6 @@ export default function Hero() {
           />
         </div>
         
-        {/* Main Content */}
         <div className="w-full lg:w-3/5 flex flex-col items-center lg:items-start gap-6 text-center lg:text-left z-10">
           <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
             Promote Political Transparency in African Communities
@@ -26,7 +24,6 @@ export default function Hero() {
             holding leaders accountable to their communities.
           </p>
           
-          {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 md:gap-8 mt-4 justify-center lg:justify-start">
             <Link href="/politicians">
               <span className="bg-[#ffca0d] text-gray-900 py-4 px-8 rounded text-lg font-semibold transition hover:bg-transparent hover:border-[#ffca0d] hover:border hover:text-[#ffca0d]">
