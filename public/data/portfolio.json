@@ -108,7 +108,46 @@
           "img": "/assets/portfolios/afcfta.jpg"
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "National Infrastructure Development Plan",
+      "description": "A large-scale initiative to modernize South Africa’s infrastructure, focusing on transportation, energy, and digital connectivity.",
+      "responsiblePoliticianId": 4,
+      "status": "Ongoing",
+      "impact": "Improved infrastructure connectivity, with a 30% increase in transportation capacity and 50% growth in renewable energy sources.",
+      "relatedLinks": [
+        {
+          "title": "National Infrastructure Development Plan Overview",
+          "url": "https://www.gov.za/nidp-overview"
+        },
+        {
+          "title": "Energy and Transportation Sector Updates",
+          "url": "https://www.gov.za/energy-transport-updates"
+        }
+      ],
+      "otherProjects": [
+        {
+          "title": "Land Reform Initiative",
+          "status": "Ongoing",
+          "impact": "Redistributed land to 200,000 families, with a focus on agriculture and sustainable development.",
+          "img": "/assets/portfolios/land_reform.jpg"
+        },
+        {
+          "title": "Youth Empowerment and Job Creation",
+          "status": "Ongoing",
+          "impact": "Created 100,000 new jobs for youth in South Africa, focusing on the tech, agriculture, and manufacturing sectors.",
+          "img": "/assets/portfolios/youth_empowerment.jpg"
+        },
+        {
+          "title": "COVID-19 Response and Recovery Plan",
+          "status": "Completed",
+          "impact": "Launched a national COVID-19 relief fund, providing financial aid to over 5 million citizens and supporting small businesses.",
+          "img": "/assets/portfolios/covid_recovery.jpg"
+        }
+      ]
     }
+    
 
   ]
   

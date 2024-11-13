@@ -29,11 +29,11 @@ const PortfolioList = ({ portfolios }) => {
                 // Conditional status class based on project status
                 let statusClass = '';
                 if (project.status === 'Completed') {
-                  statusClass = 'text-green-500'; // Success theme
+                  statusClass = 'text-green-500';
                 } else if (project.status === 'Ongoing') {
-                  statusClass = 'text-yellow-500'; // Warning theme
+                  statusClass = 'text-yellow-500';
                 } else if (project.status === 'Failed' || project.status === 'Cancelled') {
-                  statusClass = 'text-red-500'; // Danger theme
+                  statusClass = 'text-red-500';
                 }
 
                 return (
