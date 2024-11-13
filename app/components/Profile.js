@@ -14,12 +14,6 @@ const PoliticianProfile = ({ politician }) => {
               alt={politician.name}
               className="w-32 h-32 md:w-48 md:h-48 object-cover object-center rounded-full border-4 border-cyan-500 mb-4 md:mb-0"
             />
-            <img
-              src={politician.flag}
-              alt={politician.country}
-              className="w-32 h-32 md:w-48 md:h-48 object-cover object-center float-none lg:float-right mb-4 md:mb-0"
-            />
-            
             <div className="text-white md:ml-8">
               <h2 className="text-2xl md:text-3xl font-bold">{politician.name}</h2>
               <p className="text-lg md:text-xl font-semibold text-gray-300">
