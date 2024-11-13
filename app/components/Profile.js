@@ -1,3 +1,5 @@
+import { FaXTwitter, FaFacebook, FaLinkedin } from "react-icons/fa6";
+
 const PoliticianProfile = ({ politician }) => {
     if (!politician) {
       return <div>Loading...</div>;
@@ -44,13 +46,13 @@ const PoliticianProfile = ({ politician }) => {
                 <p className="font-semibold text-sm md:text-base">Social Media:</p>
                 <ul className="flex flex-wrap space-x-4 text-sm md:text-base">
                   {politician.socialMedia?.twitter && (
-                    <li><a href={politician.socialMedia.twitter} target="_blank" className="text-blue-500">Twitter</a></li>
+                    <li><a href={politician.socialMedia.twitter} target="_blank" className="text-blue-500"><FaXTwitter/></a></li>
                   )}
                   {politician.socialMedia?.facebook && (
-                    <li><a href={politician.socialMedia.facebook} target="_blank" className="text-blue-600">Facebook</a></li>
+                    <li><a href={politician.socialMedia.facebook} target="_blank" className="text-blue-600"><FaFacebook/></a></li>
                   )}
                   {politician.socialMedia?.linkedin && (
-                    <li><a href={politician.socialMedia.linkedin} target="_blank" className="text-blue-700">LinkedIn</a></li>
+                    <li><a href={politician.socialMedia.linkedin} target="_blank" className="text-blue-700"><FaLinkedin/></a></li>
                   )}
                 </ul>
               </div>
