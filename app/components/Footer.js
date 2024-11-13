@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex flex-row md:flex-col items-center justify-center md:justify-start gap-4 mt-8'>
+      <div className='flex flex-row md:flex-col items-center justify-center md:justify-start gap-4 space-y-4 space-x-4 mt-8'>
         <div className='flex items-center gap-3'>
           <a className="text-white flex flex-row gap-2 hover:text-[#ffca0d]" href="https://github.com/CodeGallantX">
         <FaGithub className="text-2xl"/>
@@ -78,7 +78,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center text-white text-sm">
         <span>&copy; 2024 - CivicTrack</span>
         <span>Built by <a href="https://github.com/codegallantx" target='_blank' className="text-[#ffca0d] hover:underline">CodeGallantX</a></span>
-        <div className="flex flex-row gap-3 mt-3 md:mt-0">
+        <div className="flex flex-row gap-3 space-x-3 mt-3 md:mt-0">
           <a href="#" className="hover:underline">Privacy</a>
           <span>|</span>
           <a href="#" className="hover:underline">Terms & Conditions</a>

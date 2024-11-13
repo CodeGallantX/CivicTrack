@@ -118,7 +118,7 @@
       "id": 6,
       "name": "Muhammadu Buhari",
       "nickname": "Mai Gaskiya",
-      "position": "President",
+      "position": "Former President",
       "party": "All Progressives Congress (APC)",
       "country": "Nigeria",
       "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
@@ -129,8 +129,8 @@
           "twitter": "https://twitter.com/MBuhari",
           "facebook": "https://facebook.com/MuhammaduBuhari"
       },
-      "shortBio": "President of Nigeria since 2015, focused on anti-corruption, security, and economic reforms.",
-      "longBio": "Muhammadu Buhari, President of Nigeria since 2015, has prioritized anti-corruption measures, security, and economic reforms throughout his tenure.",
+      "shortBio": "President of Nigeria from 2015-2023, focused on anti-corruption, security, and economic reforms.",
+      "longBio": "Muhammadu Buhari, President of Nigeria from May 2015 - May 2023, has prioritized anti-corruption measures, security, and economic reforms throughout his tenure.",
       "photo": "/assets/politicians/muhammadu-buhari.jpg",
       "achievements": [
           "Led Nigeria’s anti-corruption campaign.",
@@ -188,7 +188,7 @@
     "id": 9,
     "name": "Bola Tinubu",
     "nickname": "Jagaban",
-    "position": "President-elect",
+    "position": "President",
     "party": "All Progressives Congress (APC)",
     "country": "Nigeria",
     "flag": "/assets/flags/Flag_of_Nigeria.svg.png",
@@ -198,8 +198,8 @@
       "twitter": "https://twitter.com/officialABAT",
       "facebook": "https://facebook.com/BolaTinubu"
     },
-    "shortBio": "President-elect of Nigeria, former Lagos State governor, and political kingmaker.",
-    "longBio": "Bola Tinubu, Nigeria’s President-elect, is known for his political strategy and influence, having served as Lagos State governor and played a major role in political leadership transitions.",
+    "shortBio": "President of Nigeria, former Lagos State governor, and political kingmaker.",
+    "longBio": "Bola Tinubu, Nigeria’s President, is known for his political strategy and influence, having served as Lagos State governor and played a major role in political leadership transitions.",
     "photo": "/assets/politicians/bola-tinubu.jpg",
     "achievements": [
       "Led Lagos State as governor, initiating economic growth.",

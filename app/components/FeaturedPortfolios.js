@@ -6,13 +6,13 @@ const FeaturedPortfolios = ({ portfolios }) => {
           {portfolios.map((portfolio) => (
             <div
               key={portfolio.id}
-              className="group relative bg-white shadow-xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl"
+              className="group relative bg-gray-800 shadow-xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl"
             >
               <div className="p-6 flex flex-col justify-between">
-                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-cyan-500 transition-colors">
+                <h3 className="text-xl font-semibold text-white transition-colors">
                   {portfolio.title}
                 </h3>
-                <p className="text-sm text-gray-600 group-hover:text-gray-800 transition-colors">
+                <p className="text-sm text-gray-200 group-hover:text-gray-300 transition-colors">
                   {portfolio.description}
                 </p>
               </div>

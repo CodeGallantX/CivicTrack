@@ -6,18 +6,21 @@ const PortfolioFilter = ({ onFilterChange }) => {
   const [selectedYear, setSelectedYear] = useState('');
   const [selectedTags, setSelectedTags] = useState([]);
 
+  // Handle changes for Category filter (Tag)
   const handleCategoryChange = (e) => {
     const category = e.target.value;
     setSelectedCategory(category);
     onFilterChange({ category, year: selectedYear, tags: selectedTags });
   };
 
+  // Handle changes for Year filter (Start Date year)
   const handleYearChange = (e) => {
     const year = e.target.value;
     setSelectedYear(year);
     onFilterChange({ category: selectedCategory, year, tags: selectedTags });
   };
 
+  // Handle changes for Tag filter (specific tags like "Green" or "Sustainability")
   const handleTagChange = (tag, isChecked) => {
     const updatedTags = isChecked
       ? [...selectedTags, tag]
@@ -41,6 +44,7 @@ const PortfolioFilter = ({ onFilterChange }) => {
           <option value="Infrastructure">Infrastructure</option>
           <option value="Healthcare">Healthcare</option>
           <option value="Education">Education</option>
+          {/* You can add more categories here if needed */}
         </select>
       </div>
 
@@ -52,9 +56,11 @@ const PortfolioFilter = ({ onFilterChange }) => {
           className="w-full bg-gray-700 text-gray-300 p-2 rounded"
         >
           <option value="">All Years</option>
+          {/* Dynamically generating years based on available years in your data */}
           <option value="2024">2024</option>
           <option value="2023">2023</option>
           <option value="2022">2022</option>
+          {/* Add more years dynamically if needed */}
         </select>
       </div>
 

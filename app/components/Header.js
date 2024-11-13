@@ -20,12 +20,12 @@ const Header = () => {
       path: "/about",
     },
     {
-      name: "CONTACT",
-      path: "/contact",
-    },
-    {
       name: "POLITICIANS",
       path: "/politicians",
+    },
+    {
+      name: "CONTACT",
+      path: "/contact",
     },
   ];
 

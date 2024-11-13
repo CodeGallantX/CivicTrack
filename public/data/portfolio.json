@@ -4,10 +4,8 @@
       "title": "Infrastructure Development",
       "description": "A program to improve roads, bridges, and public transportation systems across the country.",
       "responsiblePoliticianId": 1,
-      "startDate": "2021-01-01",
       "status": "Ongoing",
-      "budget": "5 billion USD",
-      "tag": "Social",
+      "impact": "Improved public infrastructure, reduced traffic congestion by 25%.",
       "relatedLinks": [
         {
           "title": "Official Government Report",
@@ -17,6 +15,26 @@
           "title": "News Coverage",
           "url": "https://news.com/infrastructure"
         }
+      ],
+      "otherProjects": [
+        {
+          "title": "Economic Development Program",
+          "status": "Ongoing",
+          "impact": "Boosted GDP by 6%, created 100,000 jobs in the tech sector.",
+          "img": "/assets/portfolios/economic_development.jpg"
+        },
+        {
+          "title": "Healthcare Access Improvement",
+          "status": "Completed",
+          "impact": "Reduced child mortality by 30%, improved healthcare facilities.",
+          "img": "/assets/portfolios/healthcare_improvement.jpg"
+        },
+        {
+          "title": "Energy Infrastructure Expansion",
+          "status": "Ongoing",
+          "impact": "Increased access to electricity in rural areas by 40%.",
+          "img": "/assets/portfolios/energy_infrastructure.jpg"
+        }
       ]
     },
     {
@@ -24,14 +42,32 @@
       "title": "Education Reform",
       "description": "An initiative to enhance access to quality education, increase teacher salaries, and improve school infrastructure.",
       "responsiblePoliticianId": 2,
-      "startDate": "2019-05-15",
       "status": "Completed",
-      "budget": "2 billion USD",
-      "tag": "Education",
+      "impact": "Increased student enrollment by 20%, improved school facilities.",
       "relatedLinks": [
         {
           "title": "Policy Document",
           "url": "https://gov.ng/education-policy"
+        }
+      ],
+      "otherProjects": [
+        {
+          "title": "Job Creation Initiative",
+          "status": "Ongoing",
+          "impact": "Created 50,000 new jobs in various sectors.",
+          "img": "/assets/portfolios/job_creation.jpg"
+        },
+        {
+          "title": "Water Sanitation Project",
+          "status": "Completed",
+          "impact": "Improved access to clean water for 3 million people.",
+          "img": "/assets/portfolios/water_sanitation.jpg"
+        },
+        {
+          "title": "Rural Development Program",
+          "status": "Ongoing",
+          "impact": "Improved infrastructure and agriculture in rural areas.",
+          "img": "/assets/portfolios/rural_development.jpg"
         }
       ]
     }

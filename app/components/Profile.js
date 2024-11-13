@@ -7,8 +7,8 @@ const PoliticianProfile = ({ politician }) => {
 
     return (
       <div className="bg-gray-900">
-        <div className="w-full p-0 lg:px-4">
-          <div className="bg-gray-800 p-3 lg:p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-start">
+        <div className="w-full p-0">
+          <div className="bg-gray-800 p-6 lg:p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-start">
             <img
               src={politician.photo}
               alt={politician.name}
