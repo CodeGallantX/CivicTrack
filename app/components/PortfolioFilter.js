@@ -1,26 +1,25 @@
 "use client"
-import { useState } from 'react';
+import aos from 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useState, useEffect } from 'react';
 
 const PortfolioFilter = ({ onFilterChange }) => {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedYear, setSelectedYear] = useState('');
   const [selectedTags, setSelectedTags] = useState([]);
 
-  // Handle changes for Category filter (Tag)
   const handleCategoryChange = (e) => {
     const category = e.target.value;
     setSelectedCategory(category);
     onFilterChange({ category, year: selectedYear, tags: selectedTags });
   };
 
-  // Handle changes for Year filter (Start Date year)
   const handleYearChange = (e) => {
     const year = e.target.value;
     setSelectedYear(year);
     onFilterChange({ category: selectedCategory, year, tags: selectedTags });
   };
 
-  // Handle changes for Tag filter (specific tags like "Green" or "Sustainability")
   const handleTagChange = (tag, isChecked) => {
     const updatedTags = isChecked
       ? [...selectedTags, tag]
@@ -29,8 +28,15 @@ const PortfolioFilter = ({ onFilterChange }) => {
     onFilterChange({ category: selectedCategory, year: selectedYear, tags: updatedTags });
   };
 
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      once: true
+    });
+  }, []);
+
   return (
-    <div className="w-1/4 hidden lg:block p-4 bg-gray-800 rounded-lg shadow-md space-y-6">
+    <div data-aos="fade-right" data-aos-duration="1000" className="w-1/4 hidden lg:block p-4 bg-gray-800 rounded-lg shadow-md space-y-6">
       <h2 className="text-xl font-semibold text-gray-200">Filter Portfolio</h2>
 
       <div>
@@ -44,7 +50,7 @@ const PortfolioFilter = ({ onFilterChange }) => {
           <option value="Infrastructure">Infrastructure</option>
           <option value="Healthcare">Healthcare</option>
           <option value="Education">Education</option>
-          {/* You can add more categories here if needed */}
+          <option value="Finance">Finance</option>
         </select>
       </div>
 
@@ -56,11 +62,10 @@ const PortfolioFilter = ({ onFilterChange }) => {
           className="w-full bg-gray-700 text-gray-300 p-2 rounded"
         >
           <option value="">All Years</option>
-          {/* Dynamically generating years based on available years in your data */}
           <option value="2024">2024</option>
           <option value="2023">2023</option>
           <option value="2022">2022</option>
-          {/* Add more years dynamically if needed */}
+          <option value="2021">2021</option>
         </select>
       </div>
 

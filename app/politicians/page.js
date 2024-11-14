@@ -18,7 +18,6 @@ async function fetchPoliticians() {
 const PoliticiansPage = async () => {
   const politicians = await fetchPoliticians();
 
-  // Pass politicians data to a Client Component for filtering
   return (
     <div className="bg-gray-900">
       <Header />
@@ -30,14 +29,8 @@ const PoliticiansPage = async () => {
             Discover politicians involved in shaping the political landscape.
           </p>
       <div className="flex py-10 gap-10">
-        {/* Sidebar Filter */}
         <FilterSidebar politicians={politicians} />
-
-        {/* Main Content */}
         <div className="w-full lg:w-3/4">
-        
-
-          {/* Politician Cards */}
           <PoliticianCards politicians={politicians} />
         </div>
       </div>

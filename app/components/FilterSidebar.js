@@ -1,5 +1,6 @@
 'use client';
-
+import "aos/dist/aos.css";
+import AOS from "aos";
 import React, { useState, useEffect } from 'react';
 
 const FilterSidebar = ({ politicians }) => {
@@ -75,9 +76,17 @@ const FilterSidebar = ({ politicians }) => {
 
     setFilteredPoliticians(result);
   }, [searchQuery, roleFilter, countryFilter, partyFilter, ageRangeFilter, genderFilter, politicians]);
+  
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      once: true,
+    });
+  }, []);
 
   return (
-    <div className="w-1/4 hidden lg:block bg-gray-800 text-white p-5 rounded-md shadow-lg">
+    <div data-aos="fade-right" data-aos-duration="1000" className="w-1/4 hidden lg:block bg-gray-800 text-white p-5 rounded-md shadow-lg">
       <h3 className="text-2xl font-semibold mb-4">Filter Politicians</h3>
 
       <div className="mb-4">

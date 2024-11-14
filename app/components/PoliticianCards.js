@@ -1,14 +1,27 @@
+"use client";
 import Link from 'next/link';
 import Image from 'next/image';
+import "aos/dist/aos.css";
+import AOS from 'aos';
+import { useEffect } from 'react';
 import { FaFacebook, FaXTwitter, FaInstagram } from "react-icons/fa6";
 
 const PoliticianCards = ({ politicians }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8">
-      {politicians.map((politician) => (
+      {politicians.map((politician, index) => (
         <div
           key={politician.id}
           className="bg-gray-800 group shadow-xl rounded-lg overflow-hidden duration-300 ease-in-out"
+          data-aos="fade-up"
+          data-aos-delay={`${index * 100}`}
         >
           <div className="relative">
             <img

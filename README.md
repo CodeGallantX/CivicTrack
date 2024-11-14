@@ -6,6 +6,7 @@ CivicTrack is an open-source platform developed with Next.js and styled using Ta
 **Technologies Used**  
 - **Framework**: Next.js
 - **Styling**: Tailwind CSS
+- **Other**: AOS
 - **Data Storage**: JSON files for structured, local data handling.
 
 ---
