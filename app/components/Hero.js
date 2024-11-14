@@ -17,7 +17,7 @@ export default function Hero() {
       <Header />
       <div className="relative flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between min-h-screen px-10 xl:px-24">
         
-        <div data-aos="zoom-in-left" data-aos-duration="3000" data-aos-delay="50" className="absolute w-full lg:w-2/5 lg:static top-10 inset-0 flex justify-center lg:justify-end items-center opacity-10 lg:opacity-100">
+        <div className="absolute w-full lg:w-2/5 lg:static top-10 inset-0 flex justify-center lg:justify-end items-center opacity-10 lg:opacity-100">
           <img
             src="/africa_003.svg"
             alt="africa map"
@@ -34,14 +34,14 @@ export default function Hero() {
             holding leaders accountable to their communities.
           </p>
           
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300" className="flex flex-col sm:flex-row items-center lg:items-start space-y-4 md:space-y-0 md:gap-8 mt-4 justify-center lg:justify-start">
+          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300" className="flex flex-col sm:flex-row items-center lg:items-start gap-8 md:gap-8 mt-4 justify-center lg:justify-start">
             <Link href="/politicians">
               <span className="bg-[#ffca0d] text-gray-900 py-4 px-8 rounded text-lg font-semibold transition hover:bg-transparent hover:border-[#ffca0d] hover:border hover:text-[#ffca0d]">
                 Explore Data
               </span>
             </Link>
             <Link href="/login">
-              <span className="border border-[#ffca0d] text-[#ffca0d] py-4 px-8 rounded text-lg font-semibold transition hover:bg-[#ffca0d] hover:text-gray-900">
+              <span className="border border-[#ffca0d] text-[#ffca0d] py-4 px-8 mt-8 mt-0 md:ml-6 md:mt-0 rounded text-lg font-semibold transition hover:bg-[#ffca0d] hover:text-gray-900">
                 Get Started
               </span>
             </Link>
