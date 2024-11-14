@@ -21,23 +21,23 @@ const PortfolioList = ({ portfolios }) => {
               {portfolio.otherProjects.map((project, idx) => {
                 let statusClass = '';
                 if (project.status === 'Completed') {
-                  statusClass = 'text-green-500 bg-green-100 rounded-full p-2';
+                  statusClass = 'text-green-500 bg-green-100 border border-green-500 rounded-full py-1 px-2';
                 } else if (project.status === 'Ongoing') {
-                  statusClass = 'text-yellow-500 bg-yellow-100 rounded-full p-2';
+                  statusClass = 'text-yellow-500 bg-yellow-100 border border-yellow-500 rounded-full py-1 px-2';
                 } else if (project.status === 'Failed' || project.status === 'Cancelled') {
-                  statusClass = 'text-red-500 bg-red-100 rounded-full p-2';
+                  statusClass = 'text-red-500 bg-red-100 border border-red-500 rounded-full py-1 px-2';
                 }
 
                 return (
-                  <div key={idx} className="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+                  <div key={idx} className="relative bg-gray-800 rounded-lg overflow-hidden shadow-md">
                     <img
                       src={project.img}
                       alt={project.title}
-                      className="w-full h-32 object-cover rounded-t-lg"
+                      className="w-full h-40 object-cover rounded-t-lg"
                     />
-                    <div className="p-4">
+                    <div className="p-4 h-1/3">
                       <h5 data-aos="fade-right" data-aos-duration="3000" className="font-semibold text-lg">{project.title}</h5>
-                      <p data-aos="fade-right" data-aos-duration="3000" className={`text-xs mt-2 w-10 ${statusClass}`}>{project.status}</p>
+                      <p data-aos="fade-right" data-aos-duration="3000" className={`absolute top-2 right-2 text-xs mt-2 w-20 text-center ${statusClass}`}>{project.status}</p>
                       <p data-aos="fade-right" data-aos-duration="3000" className="mt-2 text-sm text-gray-300">{project.impact}</p>
                     </div>
                   </div>
