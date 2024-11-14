@@ -146,7 +146,45 @@
           "img": "/assets/portfolios/covid_recovery.jpg"
         }
       ]
-    }
+    },
+    {
+      "id": 5,
+      "title": "SDG Advocacy and Economic Development Initiatives for Africa",
+      "description": "Amina Mohammed, as Deputy Secretary-General of the UN, has spearheaded multiple initiatives to drive sustainable development across Africa, particularly focusing on economic empowerment, youth inclusion, and climate resilience.",
+      "responsiblePoliticianId": 5,
+      "status": "Ongoing",
+      "impact": "Amina's efforts have led to advancements in youth empowerment, climate resilience, and sustainable economic development, promoting the African Continental Free Trade Agreement and calling for a $500 billion annual SDG stimulus. Her work has aimed to lift millions from poverty and foster sustainable industrialization across African nations.",
+      "relatedLinks": [
+        {
+          "title": "UN SDG Financing and Youth Inclusion Initiatives",
+          "url": "https://press.un.org/en/un-sdg-financing-2023"
+        },
+        {
+          "title": "Amina Mohammed on Africa's Economic Future",
+          "url": "https://www.nairametrics.com/amina-mohammed-sdgs-nigeria"
+        }
+      ],
+      "otherProjects": [
+        {
+          "title": "Youth Empowerment for Digital and Green Economies",
+          "status": "Ongoing",
+          "impact": "Launched partnerships to enhance skills training for African youth, aligning them with opportunities in green energy and digital sectors.",
+          "img": "/assets/portfolios/youth_empowerment_africa.jpg"
+        },
+        {
+          "title": "Climate Action through the Great Green Wall Initiative",
+          "status": "Ongoing",
+          "impact": "Supports the Great Green Wall to restore ecosystems, promote sustainable livelihoods, and reduce migration pressures across the Sahel.",
+          "img": "/assets/portfolios/great_green_wall.jpg"
+        },
+        {
+          "title": "SDG Financing Initiative for Africa",
+          "status": "Ongoing",
+          "impact": "Advocates for bridging the $10 billion annual funding gap needed in Nigeria to meet SDGs, engaging private sector investment for social impact projects.",
+          "img": "/assets/portfolios/sdg_financing.jpg"
+        }
+      ]
+    }   
     
 
   ]
