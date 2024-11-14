@@ -21,11 +21,11 @@ const PortfolioList = ({ portfolios }) => {
               {portfolio.otherProjects.map((project, idx) => {
                 let statusClass = '';
                 if (project.status === 'Completed') {
-                  statusClass = 'text-green-500 bg-green-50 rounded-full p-2';
+                  statusClass = 'text-green-500 bg-green-100 rounded-full p-2';
                 } else if (project.status === 'Ongoing') {
-                  statusClass = 'text-yellow-500 bg-yellow-50 rounded-full p-2';
+                  statusClass = 'text-yellow-500 bg-yellow-100 rounded-full p-2';
                 } else if (project.status === 'Failed' || project.status === 'Cancelled') {
-                  statusClass = 'text-red-500 bg-red-50 rounded-full p-2';
+                  statusClass = 'text-red-500 bg-red-100 rounded-full p-2';
                 }
 
                 return (
@@ -37,7 +37,7 @@ const PortfolioList = ({ portfolios }) => {
                     />
                     <div className="p-4">
                       <h5 data-aos="fade-right" data-aos-duration="3000" className="font-semibold text-lg">{project.title}</h5>
-                      <p data-aos="fade-right" data-aos-duration="3000" className={`text-xs mt-2 ${statusClass}`}>{project.status}</p>
+                      <p data-aos="fade-right" data-aos-duration="3000" className={`text-xs mt-2 w-10 ${statusClass}`}>{project.status}</p>
                       <p data-aos="fade-right" data-aos-duration="3000" className="mt-2 text-sm text-gray-300">{project.impact}</p>
                     </div>
                   </div>
