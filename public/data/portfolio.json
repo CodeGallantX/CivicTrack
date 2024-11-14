@@ -21,19 +21,19 @@
           "title": "Economic Development Program",
           "status": "Ongoing",
           "impact": "Boosted GDP by 6%, created 100,000 jobs in the tech sector.",
-          "img": "/assets/portfolios/economic_development.jpg"
+          "img": "/assets/portfolios/paul-kagame-edp.jpg"
         },
         {
           "title": "Healthcare Access Improvement",
           "status": "Completed",
           "impact": "Reduced child mortality by 30%, improved healthcare facilities.",
-          "img": "/assets/portfolios/healthcare_improvement.jpg"
+          "img": "/assets/portfolios/paul-kagame-health-care.jpg"
         },
         {
           "title": "Energy Infrastructure Expansion",
           "status": "Ongoing",
           "impact": "Increased access to electricity in rural areas by 40%.",
-          "img": "/assets/portfolios/energy_infrastructure.jpg"
+          "img": "/assets/portfolios/paul-kagame-energy.jpg"
         }
       ]
     },
