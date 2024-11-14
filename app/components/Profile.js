@@ -74,7 +74,7 @@ const PoliticianProfile = ({ politician }) => {
               <p className="text-gray-300 text-sm md:text-base">{politician.dateOfBirth}</p>
             </div>
 
-            <div className="mt-6" data-aos="fade-up" data-aos-delay="1200">
+            <div className="mt-6" data-aos="fade-right" data-aos-delay="1200">
               <p className="font-semibold text-sm md:text-base">Social Media:</p>
               <ul className="flex flex-wrap space-x-4 mt-2 text-sm md:text-base">
                 {politician.socialMedia?.twitter && (

@@ -41,7 +41,7 @@ export default function Hero() {
               </span>
             </Link>
             <Link href="/login">
-              <span className="border border-[#ffca0d] text-[#ffca0d] py-4 px-8 mt-8 mt-0 md:ml-6 md:mt-0 rounded text-lg font-semibold transition hover:bg-[#ffca0d] hover:text-gray-900">
+              <span className="border border-[#ffca0d] text-[#ffca0d] py-4 px-8 mt-10 ml-0 md:ml-6 md:mt-0 rounded text-lg font-semibold transition hover:bg-[#ffca0d] hover:text-gray-900">
                 Get Started
               </span>
             </Link>

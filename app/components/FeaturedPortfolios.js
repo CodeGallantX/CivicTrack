@@ -19,7 +19,7 @@ const FeaturedPortfolios = ({ portfolios }) => {
           <div
             key={portfolio.id}
             className="group relative bg-gray-800 shadow-xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl"
-            data-aos="fade-up"
+            data-aos="fade-left"
             data-aos-delay={`${index * 100}`}
           >
             <div className="p-6 flex flex-col justify-between">
