@@ -52,10 +52,10 @@
       ],
       "otherProjects": [
         {
-          "title": "Job Creation Initiative",
+          "title": "Ethiopia's Green Legacy Initiative",
           "status": "Ongoing",
-          "impact": "Created 50,000 new jobs in various sectors.",
-          "img": "/assets/portfolios/job_creation.jpg"
+          "impact": "Created over 767,000 jobs in various sectors for mostly youths and women",
+          "img": "/assets/portfolios/abiy-ahmed-ethiopia-green-legacy.png"
         },
         {
           "title": "Water Sanitation Project",
@@ -182,6 +182,56 @@
           "status": "Ongoing",
           "impact": "Advocates for bridging the $10 billion annual funding gap needed in Nigeria to meet SDGs, engaging private sector investment for social impact projects.",
           "img": "/assets/portfolios/sdg_financing.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Major Reforms and Infrastructure Development in Nigeria",
+      "description": "Buhari’s administration implemented key reforms across infrastructure, oil and gas, social welfare, and agricultural sectors to modernize and stabilize Nigeria’s economy.",
+      "responsiblePoliticianId": 6,
+      "status": "Completed",
+      "impact": "Significantly increased national infrastructure and economic resilience, focusing on transportation, energy, and agricultural productivity. Over 3 million MSMEs benefited, contributing to youth and women empowerment.",
+      "relatedLinks": [
+        {
+          "title": "Buhari’s Infrastructure Projects Overview",
+          "url": "https://www.thecable.ng"
+        },
+        {
+          "title": "List of Buhari's Achievements in Nigeria",
+          "url": "https://www.naijanews.com"
+        }
+      ],
+      "otherProjects": [
+        {
+          "title": "National Social Investment Program (NSIP)",
+          "status": "Completed",
+          "impact": "Established NSIP, Africa's largest social welfare program, benefiting over 30 million Nigerians through cash transfers, job creation, and entrepreneurship support.",
+          "img": "/assets/portfolios/social_investment.jpg"
+        },
+        {
+          "title": "Agricultural Reforms - Anchor Borrowers Program",
+          "status": "Ongoing",
+          "impact": "Boosted food production by financing 3.1 million smallholder farmers, expanding local production of key crops like rice and maize, with 3.8 million hectares cultivated.",
+          "img": "/assets/portfolios/agric_reform.jpg"
+        },
+        {
+          "title": "Railway Modernization Project",
+          "status": "Completed",
+          "impact": "Modernized rail transport with projects like the Lagos-Ibadan and Abuja-Kaduna rail lines, reducing travel time and improving economic connectivity.",
+          "img": "/assets/portfolios/railways.jpg"
+        },
+        {
+          "title": "Petroleum Industry Act (PIA) Reform",
+          "status": "Completed",
+          "impact": "Passed the PIA after decades of delays, restructuring Nigeria's oil sector for increased investment and transparency.",
+          "img": "/assets/portfolios/petroleum_industry.jpg"
+        },
+        {
+          "title": "COVID-19 Support Initiatives",
+          "status": "Completed",
+          "impact": "Provided economic support to households and businesses with a 300 billion Naira credit facility and the Survival Fund, aiding over 800,000 individuals and MSMEs.",
+          "img": "/assets/portfolios/covid_support.jpg"
         }
       ]
     }   
