@@ -58,16 +58,16 @@
           "img": "/assets/portfolios/abiy-ahmed-ethiopia-green-legacy.png"
         },
         {
-          "title": "Water Sanitation Project",
-          "status": "Completed",
-          "impact": "Improved access to clean water for 3 million people.",
-          "img": "/assets/portfolios/water_sanitation.jpg"
+          "title": "Rural Development and Agricultural Support Program",
+          "status": "Ongoing",
+          "impact": "Improved rural infrastructure, enhanced agricultural productivity, and supported rural access to essential services.",
+          "img": "/assets/portfolios/rural_development.jpg"
         },
         {
-          "title": "Rural Development Program",
+          "title": "Grand Ethiopian Renaissance Dam (GERD)",
           "status": "Ongoing",
-          "impact": "Improved infrastructure and agriculture in rural areas.",
-          "img": "/assets/portfolios/rural_development.jpg"
+          "impact": "Set to significantly boost Ethiopia's energy capacity, providing renewable energy and supporting nationwide electrification.",
+          "img": "/assets/portfolios/gerd_project.jpg"
         }
       ]
     },
@@ -187,19 +187,15 @@
     },
     {
       "id": 6,
-      "title": "Major Reforms and Infrastructure Development in Nigeria",
-      "description": "Buhari’s administration implemented key reforms across infrastructure, oil and gas, social welfare, and agricultural sectors to modernize and stabilize Nigeria’s economy.",
+      "title": "COVID-19 Support Initiatives",
+      "description": "Economic and social support initiatives aimed at alleviating the financial impact of COVID-19 on Nigerian citizens, households, and businesses.",
       "responsiblePoliticianId": 6,
       "status": "Completed",
-      "impact": "Significantly increased national infrastructure and economic resilience, focusing on transportation, energy, and agricultural productivity. Over 3 million MSMEs benefited, contributing to youth and women empowerment.",
+      "impact": "Provided comprehensive support to households and small businesses through cash transfers, food distribution, and credit facilities. Over 800,000 beneficiaries were supported under the Survival Fund initiative, and a 300 billion Naira stimulus package was issued to protect vulnerable sectors.",
       "relatedLinks": [
         {
-          "title": "Buhari’s Infrastructure Projects Overview",
-          "url": "https://www.thecable.ng"
-        },
-        {
-          "title": "List of Buhari's Achievements in Nigeria",
-          "url": "https://www.naijanews.com"
+          "title": "COVID-19 Economic Response",
+          "url": "https://www.presidency.gov.ng/covid-response"
         }
       ],
       "otherProjects": [
@@ -234,7 +230,8 @@
           "img": "/assets/portfolios/covid_support.jpg"
         }
       ]
-    }   
+    }
+     
     
 
   ]
