@@ -1,114 +1,165 @@
 [
-    {
-      "id": 1,
-      "title": "Infrastructure Development",
-      "description": "A program to improve roads, bridges, and public transportation systems across the country.",
-      "responsiblePoliticianId": 1,
-      "status": "Ongoing",
-      "impact": "Improved public infrastructure, reduced traffic congestion by 25%.",
-      "relatedLinks": [
-        {
-          "title": "Official Government Report",
-          "url": "https://gov.ng/infrastructure-report"
-        },
-        {
-          "title": "News Coverage",
-          "url": "https://news.com/infrastructure"
-        }
-      ],
-      "otherProjects": [
-        {
-          "title": "Economic Development Program",
-          "status": "Ongoing",
-          "impact": "Boosted GDP by 6%, created 100,000 jobs in the tech sector.",
-          "img": "/assets/portfolios/paul-kagame-edp.jpg"
-        },
-        {
-          "title": "Healthcare Access Improvement",
-          "status": "Completed",
-          "impact": "Reduced child mortality by 30%, improved healthcare facilities.",
-          "img": "/assets/portfolios/paul-kagame-health-care.jpg"
-        },
-        {
-          "title": "Energy Infrastructure Expansion",
-          "status": "Ongoing",
-          "impact": "Increased access to electricity in rural areas by 40%.",
-          "img": "/assets/portfolios/paul-kagame-energy.jpg"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Education Reform",
-      "description": "An initiative to enhance access to quality education, increase teacher salaries, and improve school infrastructure.",
-      "responsiblePoliticianId": 2,
-      "status": "Completed",
-      "impact": "Increased student enrollment by 20%, improved school facilities.",
-      "relatedLinks": [
-        {
-          "title": "Policy Document",
-          "url": "https://gov.ng/education-policy"
-        }
-      ],
-      "otherProjects": [
-        {
-          "title": "Ethiopia's Green Legacy Initiative",
-          "status": "Ongoing",
-          "impact": "Created over 767,000 jobs in various sectors for mostly youths and women",
-          "img": "/assets/portfolios/abiy-ahmed-ethiopia-green-legacy.png"
-        },
-        {
-          "title": "Water Sanitation Project",
-          "status": "Completed",
-          "impact": "Improved access to clean water for 3 million people.",
-          "img": "/assets/portfolios/water_sanitation.jpg"
-        },
-        {
-          "title": "Rural Development Program",
-          "status": "Ongoing",
-          "impact": "Improved infrastructure and agriculture in rural areas.",
-          "img": "/assets/portfolios/rural_development.jpg"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Global Trade Policy Reform",
-      "description": "A global initiative aimed at reforming trade policies to ensure equitable access to markets and promote sustainable development in developing countries.",
-      "responsiblePoliticianId": 3,
-      "status": "Ongoing",
-      "impact": "Increased trade access for developing countries, reducing tariffs by 20% on key exports.",
-      "relatedLinks": [
-        {
-          "title": "World Trade Organization (WTO) Overview",
-          "url": "https://www.wto.org/global-trade-policy-reform"
-        },
-        {
-          "title": "Policy Paper on Trade Equity",
-          "url": "https://www.wto.org/trade-equity"
-        }
-      ],
-      "otherProjects": [
-        {
-          "title": "Support for Nigeria During the COVID-19 Pandemic",
-          "status": "Completed",
-          "impact": "Played a pivotal role in mobilizing international support for Nigeria, securing funding for health systems and youth empowerment programs. Facilitated the creation of initiatives to support small businesses, reduce youth unemployment, and ensure access to healthcare during the pandemic.",
-          "img": "/assets/portfolios/ngonzi_covid_impact.jpg"
-        },        
-        {
-          "title": "Sustainable Development Goals (SDGs) Advocacy",
-          "status": "Completed",
-          "impact": "Facilitated the achievement of 5 SDGs in over 40 countries.",
-          "img": "/assets/portfolios/sdg_advocacy.jpg"
-        },
-        {
-          "title": "African Continental Free Trade Area (AfCFTA)",
-          "status": "Ongoing",
-          "impact": "Led efforts to create a unified continental market, boosting intra-African trade by 15%.",
-          "img": "/assets/portfolios/afcfta.jpg"
-        }
-      ]
-    },
+  {
+    "id": 1,
+    "title": "Infrastructure Development",
+    "description": "A program to improve roads, bridges, and public transportation systems across the country.",
+    "responsiblePoliticianId": 1,
+    "status": "Ongoing",
+    "impact": "Improved public infrastructure, reduced traffic congestion by 25%.",
+    "relatedLinks": [
+      {
+        "title": "Official Government Report",
+        "url": "https://gov.ng/infrastructure-report"
+      },
+      {
+        "title": "News Coverage",
+        "url": "https://news.com/infrastructure"
+      }
+    ],
+    "otherProjects": [
+      {
+        "title": "Economic Development Program",
+        "status": "Ongoing",
+        "impact": "Boosted GDP by 6%, created 100,000 jobs in the tech sector.",
+        "img": "/assets/portfolios/paul-kagame-edp.jpg"
+      },
+      {
+        "title": "Healthcare Access Improvement",
+        "status": "Completed",
+        "impact": "Reduced child mortality by 30%, improved healthcare facilities.",
+        "img": "/assets/portfolios/paul-kagame-health-care.jpg"
+      },
+      {
+        "title": "Energy Infrastructure Expansion",
+        "status": "Ongoing",
+        "impact": "Increased access to electricity in rural areas by 40%.",
+        "img": "/assets/portfolios/paul-kagame-energy.jpg"
+      }
+    ],
+    "controversies": [
+      {
+        "title": "Authoritarian Leadership",
+        "year": 2019,
+        "description": "Criticized for centralizing power and limiting opposition parties, leading to allegations of undermining democratic processes."
+      },
+      {
+        "title": "Media Suppression",
+        "year": 2020,
+        "description": "Accused of suppressing independent media and restricting freedom of speech, with several journalists allegedly jailed or exiled."
+      },
+      {
+        "title": "Alleged Human Rights Abuses",
+        "year": 2021,
+        "description": "Faced accusations from international organizations for alleged human rights abuses, including reports of unlawful detentions and disappearances."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Education Reform",
+    "description": "An initiative to enhance access to quality education, increase teacher salaries, and improve school infrastructure.",
+    "responsiblePoliticianId": 2,
+    "status": "Completed",
+    "impact": "Increased student enrollment by 20%, improved school facilities.",
+    "relatedLinks": [
+      {
+        "title": "Policy Document",
+        "url": "https://gov.ng/education-policy"
+      }
+    ],
+    "otherProjects": [
+      {
+        "title": "Ethiopia's Green Legacy Initiative",
+        "status": "Ongoing",
+        "impact": "Created over 767,000 jobs in various sectors for mostly youths and women.",
+        "img": "/assets/portfolios/abiy-ahmed-ethiopia-green-legacy.png"
+      },
+      {
+        "title": "Water Sanitation Project",
+        "status": "Completed",
+        "impact": "Improved access to clean water for 3 million people.",
+        "img": "/assets/portfolios/water_sanitation.jpg"
+      },
+      {
+        "title": "Rural Development Program",
+        "status": "Ongoing",
+        "impact": "Improved infrastructure and agriculture in rural areas.",
+        "img": "/assets/portfolios/rural_development.jpg"
+      }
+    ],
+    "controversies": [
+      {
+        "title": "Ethnic Violence During Tenure",
+        "year": 2020,
+        "description": "Accused of failing to prevent widespread ethnic violence in parts of Ethiopia, which led to thousands of deaths and mass displacement of communities."
+      },
+      {
+        "title": "Internet Blackouts to Curb Protests",
+        "year": 2021,
+        "description": "Ordered nationwide internet shutdowns during political protests, drawing criticism from international watchdogs for stifling freedom of expression."
+      },
+      {
+        "title": "Crackdown on Opposition Leaders",
+        "year": 2022,
+        "description": "Faced accusations of imprisoning political opponents under the guise of maintaining law and order, raising concerns over democratic freedoms."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Global Trade Policy Reform",
+    "description": "A global initiative aimed at reforming trade policies to ensure equitable access to markets and promote sustainable development in developing countries.",
+    "responsiblePoliticianId": 3,
+    "status": "Ongoing",
+    "impact": "Increased trade access for developing countries, reducing tariffs by 20% on key exports.",
+    "relatedLinks": [
+      {
+        "title": "World Trade Organization (WTO) Overview",
+        "url": "https://www.wto.org/global-trade-policy-reform"
+      },
+      {
+        "title": "Policy Paper on Trade Equity",
+        "url": "https://www.wto.org/trade-equity"
+      }
+    ],
+    "otherProjects": [
+      {
+        "title": "Support for Nigeria During the COVID-19 Pandemic",
+        "status": "Completed",
+        "impact": "Played a pivotal role in mobilizing international support for Nigeria, securing funding for health systems and youth empowerment programs. Facilitated the creation of initiatives to support small businesses, reduce youth unemployment, and ensure access to healthcare during the pandemic.",
+        "img": "/assets/portfolios/ngonzi_covid_impact.jpg"
+      },
+      {
+        "title": "Sustainable Development Goals (SDGs) Advocacy",
+        "status": "Completed",
+        "impact": "Facilitated the achievement of 5 SDGs in over 40 countries.",
+        "img": "/assets/portfolios/sdg_advocacy.jpg"
+      },
+      {
+        "title": "African Continental Free Trade Area (AfCFTA)",
+        "status": "Ongoing",
+        "impact": "Led efforts to create a unified continental market, boosting intra-African trade by 15%.",
+        "img": "/assets/portfolios/afcfta.jpg"
+      }
+    ],
+    "controversies": [
+      {
+        "title": "Allegations of Mismanagement of Funds",
+        "year": 2012,
+        "description": "Faced criticism for alleged discrepancies in budget allocations during her tenure as Nigeria's Finance Minister, although investigations found no evidence of wrongdoing."
+      },
+      {
+        "title": "Perceived Elitism in Global Policy",
+        "year": 2020,
+        "description": "Criticized by some developing countries for allegedly prioritizing the interests of larger economies in trade negotiations, sparking debates on equity in global policy."
+      },
+      {
+        "title": "Transparency Issues in Subsidy Removal",
+        "year": 2011,
+        "description": "Faced backlash for the removal of fuel subsidies in Nigeria, which led to nationwide protests, with critics claiming insufficient transparency in the process."
+      }
+    ]
+  },
     {
       "id": 4,
       "title": "National Infrastructure Development Plan",
