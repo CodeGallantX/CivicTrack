@@ -61,13 +61,13 @@
           "title": "Rural Development and Agricultural Support Program",
           "status": "Ongoing",
           "impact": "Improved rural infrastructure, enhanced agricultural productivity, and supported rural access to essential services.",
-          "img": "/assets/portfolios/rural_development.jpg"
+          "img": "/assets/portfolios/abiy-ahmed-agricultural-support.jpg"
         },
         {
           "title": "Grand Ethiopian Renaissance Dam (GERD)",
           "status": "Ongoing",
           "impact": "Set to significantly boost Ethiopia's energy capacity, providing renewable energy and supporting nationwide electrification.",
-          "img": "/assets/portfolios/gerd_project.jpg"
+          "img": "/assets/portfolios/abiy-ahmed-gerd.jpg"
         }
       ]
     },
@@ -92,20 +92,20 @@
         {
           "title": "Support for Nigeria During the COVID-19 Pandemic",
           "status": "Completed",
-          "impact": "Played a pivotal role in mobilizing international support for Nigeria, securing funding for health systems and youth empowerment programs. Facilitated the creation of initiatives to support small businesses, reduce youth unemployment, and ensure access to healthcare during the pandemic.",
-          "img": "/assets/portfolios/ngonzi_covid_impact.jpg"
+          "impact": "Played a pivotal role in mobilizing international support for Nigeria, securing funding for health systems and ensuring access to healthcare during the pandemic.",
+          "img": "/assets/portfolios/ngozi-okonjo-wto-covid19-vaccine-support.jpg"
         },        
         {
           "title": "Sustainable Development Goals (SDGs) Advocacy",
           "status": "Completed",
           "impact": "Facilitated the achievement of 5 SDGs in over 40 countries.",
-          "img": "/assets/portfolios/sdg_advocacy.jpg"
+          "img": "/assets/portfolios/ngozi-okonjo-sdg.jpg"
         },
         {
           "title": "African Continental Free Trade Area (AfCFTA)",
           "status": "Ongoing",
           "impact": "Led efforts to create a unified continental market, boosting intra-African trade by 15%.",
-          "img": "/assets/portfolios/afcfta.jpg"
+          "img": "/assets/portfolios/ngozi-okonjo-afcfta.svg.png"
         }
       ]
     },
@@ -131,19 +131,13 @@
           "title": "Land Reform Initiative",
           "status": "Ongoing",
           "impact": "Redistributed land to 200,000 families, with a focus on agriculture and sustainable development.",
-          "img": "/assets/portfolios/land_reform.jpg"
+          "img": "/assets/portfolios/cyril-land-reform.jpg"
         },
         {
           "title": "Youth Empowerment and Job Creation",
           "status": "Ongoing",
           "impact": "Created 100,000 new jobs for youth in South Africa, focusing on the tech, agriculture, and manufacturing sectors.",
-          "img": "/assets/portfolios/youth_empowerment.jpg"
-        },
-        {
-          "title": "COVID-19 Response and Recovery Plan",
-          "status": "Completed",
-          "impact": "Launched a national COVID-19 relief fund, providing financial aid to over 5 million citizens and supporting small businesses.",
-          "img": "/assets/portfolios/covid_recovery.jpg"
+          "img": "/assets/portfolios/cyril-youth-empowerment"
         }
       ]
     },
