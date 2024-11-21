@@ -8,7 +8,7 @@ const FilterSidebar = ({ politicians }) => {
   const [roleFilter, setRoleFilter] = useState('');
   const [countryFilter, setCountryFilter] = useState('');
   const [partyFilter, setPartyFilter] = useState('');
-  const [ageRangeFilter, setAgeRangeFilter] = useState('');
+  const [ageRangeFilter, setAgeRangeFilter] = useState([0, 100]);
   const [genderFilter, setGenderFilter] = useState('');
   const [filteredPoliticians, setFilteredPoliticians] = useState(politicians);
 
@@ -173,22 +173,20 @@ const FilterSidebar = ({ politicians }) => {
 
       <div className="mb-4">
         <label className="block text-sm font-semibold">Filter by Age Range</label>
-        <div className="flex flex-row items-center justify-between gap-4">
         <input
           type="number"
           placeholder="Min Age"
           value={ageRangeFilter[0]}
           onChange={(e) => handleFilterChange('ageRange', [Number(e.target.value), ageRangeFilter[1]])}
           className="mt-2 px-3 py-2 rounded-md w-full bg-gray-700 text-white focus:outline-none"
-          />
+        />
         <input
           type="number"
           placeholder="Max Age"
           value={ageRangeFilter[1]}
           onChange={(e) => handleFilterChange('ageRange', [ageRangeFilter[0], Number(e.target.value)])}
           className="mt-2 px-3 py-2 rounded-md w-full bg-gray-700 text-white focus:outline-none"
-          />
-          </div>
+        />
       </div>
     </div>
   );
