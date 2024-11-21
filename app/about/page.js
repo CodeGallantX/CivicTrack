@@ -12,13 +12,13 @@ const App = () => {
   };
 
   return (
-    <div className="font-sans bg-gray-900 text-gray-100">
+    <div className="bg-gray-900 text-gray-100">
       <Header />
       <Banner page={page} />
       
       <main className="px-10 lg:px-24 py-12 space-y-12">
-        <section className="space-y-4">
-          <h2 className="text-3xl font-bold text-[#ffca0d]">Our Initiative</h2>
+        <section className="space-y-4 text-white">
+          <h2 className="text-3xl font-bold">Our <span className="text-[#ffca0d]">Initiative</span></h2>
           <p className="">
             CivicTrack is dedicated to advancing political transparency and accountability across African communities.
             Our platform empowers citizens to track the performance and promises of political leaders, providing a
@@ -28,7 +28,7 @@ const App = () => {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-bold text-[#ffca0d]">Our Mission</h2>
+          <h2 className="text-3xl font-bold">Our <span className="text-[#ffca0d]">Mission</span></h2>
           <p className="">
             Our mission is to bridge the gap between leaders and citizens by providing accessible, accurate, and 
             up-to-date information on political figures and their commitments. CivicTrack seeks to foster a culture 
@@ -38,7 +38,7 @@ const App = () => {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-3xl font-bold text-[#ffca0d]">Our Vision</h2>
+          <h2 className="text-3xl font-bold">Our <span className="text-[#ffca0d]">Vision</span></h2>
           <p className="">
             We envision a world where every citizen holds the power to advocate for change, with the information 
             they need right at their fingertips. CivicTrack aspires to be the leading platform for political 

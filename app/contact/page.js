@@ -31,7 +31,7 @@ const App = () => {
   };
 
   return (
-    <div className="font-sans bg-gray-900">
+    <div className="bg-gray-900">
       <Header />
       <Banner page={page} />
       <section className='bg-gray-900 px-10 xl:px-24 pt-16 flex flex-col lg:flex-row items-start justify-between gap-10 lg:gap-10 xl:gap-0'>
@@ -40,14 +40,14 @@ const App = () => {
           <h1 className="text-4xl lg:text-5xl xl:text-7xl font-bold">Get in Touch</h1>
           <p className='text-[18px] w-full lg:w-10/12'>We&rsquo;re here to help! Whether you have a question, need assistance, or just want to give feedback, feel free to reach out to us.</p>
 
-          <div className='flex flex-col text-[18px] lg:text-xl font-semibold xl:text-[28px] gap-3'>
+          <div className='flex flex-row font-semibold xl:text-[28px] gap-3'>
             <a href="https://github.com/codegallantx" target='_blank' className="flex flex-row items-center group">
-              <FaGithub className="text-2xl" />
-              <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out">Super Guild</span>
+              <FaGithub className="text-4xl hover:text-[#ffca0d] transition-all duration-300 ease-in-out" />
+              {/* <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out">CodeGallantX</span> */}
             </a>
             <a href="https://www.linkedin.com/john-samuel-cgx" target='_blank' className="flex flex-row items-center group">
-              <FaLinkedin className="text-2xl group-hover:text-[#ffca0d]" />
-              <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out"></span>
+              <FaLinkedin className="text-4xl hover:text-[#ffca0d] transition-all duration-300 ease-in-out" />
+              {/* <span className="ml-4 group-hover:text-[#ffca0d] transition-all duration-300 ease-in-out">John Samuel</span> */}
             </a>
           </div>
         </div>
@@ -61,7 +61,7 @@ const App = () => {
               name="name"
               value={formData.name}
               onChange={handleInputChange}
-              placeholder="Your Name"
+              placeholder="Kia Smith"
               className="px-8 py-4 border w-full text-gray-200 border-gray-300 rounded-full bg-gray-900 outline-none focus:ring-1 focus:ring-[#ffca0d] focus:border-none"
               required
             />
@@ -70,7 +70,7 @@ const App = () => {
               name="email"
               value={formData.email}
               onChange={handleInputChange}
-              placeholder="Your Email"
+              placeholder="kiasmith@mail.com"
               className="px-8 py-4 border w-full text-gray-200 border-gray-300 rounded-full bg-gray-900 outline-none focus:ring-1 focus:ring-[#ffca0d] focus:border-none"
               required
             />
@@ -79,7 +79,7 @@ const App = () => {
               name="review"
               value={formData.review}
               onChange={handleInputChange}
-              placeholder="Your Review"
+              placeholder="I would love to share my thoughts on..."
               className="px-4 indent-3 placeholder:indent-3 py-3 border text-gray-200 border-gray-300 rounded-2xl bg-gray-900 outline-none focus:ring-1 focus:ring-[#ffca0d] focus:border-none"
               rows="8"
               required

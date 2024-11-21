@@ -1,8 +1,6 @@
 import { useEffect } from 'react';
 import aos from 'aos/dist/aos.css';
 import AOS from 'aos';
-
-
 const PortfolioList = ({ portfolios }) => {
   useEffect(() => {
     AOS.init({
@@ -21,11 +19,11 @@ const PortfolioList = ({ portfolios }) => {
               {portfolio.otherProjects.map((project, idx) => {
                 let statusClass = '';
                 if (project.status === 'Completed') {
-                  statusClass = 'text-green-500 bg-green-100 border border-green-500 rounded-full py-1 px-2';
+                  statusClass = 'text-green-700 bg-green-100 border border-green-500 rounded-full py-1 px-2';
                 } else if (project.status === 'Ongoing') {
-                  statusClass = 'text-yellow-500 bg-yellow-100 border border-yellow-500 rounded-full py-1 px-2';
+                  statusClass = 'text-yellow-700 bg-yellow-100 border border-yellow-500 rounded-full py-1 px-2';
                 } else if (project.status === 'Failed' || project.status === 'Cancelled') {
-                  statusClass = 'text-red-500 bg-red-100 border border-red-500 rounded-full py-1 px-2';
+                  statusClass = 'text-red-700 bg-red-100 border border-red-500 rounded-full py-1 px-2';
                 }
 
                 return (
