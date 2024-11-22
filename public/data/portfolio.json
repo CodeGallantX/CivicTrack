@@ -181,15 +181,19 @@
     },
     {
       "id": 6,
-      "title": "COVID-19 Support Initiatives",
-      "description": "Economic and social support initiatives aimed at alleviating the financial impact of COVID-19 on Nigerian citizens, households, and businesses.",
+      "title": "Major Reforms and Infrastructure Development in Nigeria",
+      "description": "Buhari’s administration implemented key reforms across infrastructure, oil and gas, social welfare, and agricultural sectors to modernize and stabilize Nigeria’s economy.",
       "responsiblePoliticianId": 6,
       "status": "Completed",
-      "impact": "Provided comprehensive support to households and small businesses through cash transfers, food distribution, and credit facilities. Over 800,000 beneficiaries were supported under the Survival Fund initiative, and a 300 billion Naira stimulus package was issued to protect vulnerable sectors.",
+      "impact": "Significantly increased national infrastructure and economic resilience, focusing on transportation, energy, and agricultural productivity. Over 3 million MSMEs benefited, contributing to youth and women empowerment.",
       "relatedLinks": [
         {
-          "title": "COVID-19 Economic Response",
-          "url": "https://www.presidency.gov.ng/covid-response"
+          "title": "Buhari’s Infrastructure Projects Overview",
+          "url": "https://www.thecable.ng"
+        },
+        {
+          "title": "List of Buhari's Achievements in Nigeria",
+          "url": "https://www.naijanews.com"
         }
       ],
       "otherProjects": [
@@ -224,8 +228,7 @@
           "img": "/assets/portfolios/covid_support.jpg"
         }
       ]
-    }
-     
+    }   
     
 
   ]
