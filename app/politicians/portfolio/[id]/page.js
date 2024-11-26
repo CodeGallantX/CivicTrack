@@ -97,7 +97,7 @@ export default function Portfolio() {
           {politician && <Profile politician={politician} />}
           <FeaturedPortfolios portfolios={featuredPortfolios} />
           <PortfolioList portfolios={filteredPortfolios} />
-          <AccountabilityRecord portfolios={filteredPortfolios} />
+          {/* <AccountabilityRecord portfolios={filteredPortfolios} /> */}
         </div>
       </div>
       <Footer />
