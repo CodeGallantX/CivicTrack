@@ -8,7 +8,6 @@ import Link from 'next/link';
 import FilterSidebar from '../components/FilterSidebar';
 import PoliticianCards from '../components/PoliticianCards';
 
-// Server-Side Logic: Fetching data
 async function fetchPoliticians() {
   const filePath = path.join(process.cwd(), 'politiciansData', 'politicians.json');
   const jsonData = fs.readFileSync(filePath, 'utf8');
