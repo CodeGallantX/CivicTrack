@@ -34,8 +34,8 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--secondary);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   border: 3px solid var(--secondary);
 }
 

@@ -15,22 +15,25 @@ const Footer = () => {
 
     console.log("Email submitted:", email);
     setEmail('');
-    alert("Thank you for signing up!");
+    alert("Thank you for subscribing!");
   };
 
   return (
     <footer className='bg-gray-900 px-8 xl:px-24 py-12'>
-      <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-        <Link id="logo" href="/" className="text-white text-3xl font-bold font-main">
+      <div className="grid grid-cols-1 md:grid-cols-4 items-start justify-between gap-4">
+        <div className="flex flex-col items-start justify-start">
+        <Link id="logo" href="/" className="text-white text-3xl font-bold font-main mb-4">
           Civic<span className="text-[#ffca0d]">Track</span>
         </Link>
-        <ul className='flex flex-row items-center justify-center text-white gap-8 md:gap-10'>
+        <p className="text-gray-400 text-[15px] text-left">We envision a world where every citizen holds the power to advocate for change...</p>
+        </div>
+        <ul className='col-span-2 flex flex-row items-start justify-start md:justify-center text-white gap-8 md:gap-10'>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/politicians">Politicians</Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
         <div className='flex flex-col items-start gap-2 mt-4 md:mt-0'>
-          <form onSubmit={handleSubmit} className='flex items-center w-full max-w-sm relative'>
+          <form onSubmit={handleSubmit} className='flex items-center w-full max-w-lg relative'>
             <input
               type="email"
               placeholder='Email address'
@@ -58,11 +61,11 @@ const Footer = () => {
         <span className="hidden md:inline-block">CodeGallantX</span>
           </a>
         </div>
-        <a href='mailto:contact@civictrack.com' className='flex items-center gap-3'>
+        <a href='mailto:johnayobami77@proton.me' className='flex items-center gap-3'>
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="fill-white" viewBox="0 0 16 16">
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
           </svg>
-          <span className="text-white hidden md:inline-block">contact@civictrack.com</span>
+          <span className="text-white hidden md:inline-block">johnayobami77@proton.me</span>
         </a>
       </div>
 
